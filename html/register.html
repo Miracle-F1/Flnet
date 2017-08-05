@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/snippets.css" type="text/css">
+    <link rel="stylesheet" href="css/register.css" type="text/css">
+    <script src="js/lib/jQuery-1.11.0.js"></script>
+    <script>
+        $(function(){
+            $.ajaxSetup({
+            cache: false //关闭AJAX相应的缓存
+            });
+            $(".header-a").load("html-snippets/top-1.html");
+            $(".bottom-b").load("html-snippets/bottom-2.html");
+        })
+    </script>
+</head>
+<body>
+    <div class="header-a"></div>
+    <div class="reg_head container">
+        <img src="img/logo.jpg" class=logo>
+        <div class="tit-a">用户注册</div>
+    </div>
+    <section class="container clear">
+       <div class="reg-l clear">
+            <div class="item-box-textcenter">
+                <input type="radio" name="regtype">手机号注册 &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="regtype">邮箱
+            </div> 
+                       
+            <div class="item-box">
+                <div class="i-l">
+                    邮箱：
+                </div>
+                <div class="i-r">
+                    <input type="text" id="email" placeholder="请输入您的邮箱">
+                </div>
+                <div class="tips">
+                    <i class="iconfont">&#xe61c;</i>错误错误错误错误错误错误
+                </div>
+            </div>
+            
+            <div class="item-box">
+                <div class="i-l">
+                    手机号码：
+                </div>
+                <div class="i-r">
+                    <input type="text" id="username" placeholder="请输入有效的手机号码">
+                </div>
+                <div class="tips">
+                    <i class="iconfont">&#xe61c;</i>错误错误错误错误错误错误
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="i-l">
+                    验证码：
+                </div>
+                <div class="i-r">
+                    <input type="text" id="code" placeholder="验证码">
+                    <div class="code-show"></div>
+                    <a href="javascript:void(0);"><i class="iconfont">&#xe62d;</i>换一张</a>
+                </div>
+                <div class="tips">
+                    <i class="iconfont">&#xe61c;</i>错误错误错误错误错误错误
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="i-l">
+                    短信验证码：
+                </div>
+                <div class="i-r">
+                    <input type="text" id="code" placeholder="验证码">
+                    <div class="get-code">获取验证码</div>
+                </div>
+                <div class="tips">
+                    <i class="iconfont">&#xe61c;</i>错误错误错误错误错误错误
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="i-l">
+                    设置密码：
+                </div>
+                <div class="i-r">
+                    <input type="password" id="password" placeholder="输入密码">
+                </div>
+                <div class="tips">
+                    <i class="iconfont">&#xe61c;</i>错误错误错误错误错误错误
+                </div>
+            </div>
+            <div class="item-box">
+                <div class="i-l">
+                    确认密码：
+                </div>
+                <div class="i-r">
+                    <input type="password" id="conf-password" placeholder="确认密码">
+                </div>
+                <div class="tips">
+                    <i class="iconfont">&#xe61c;</i>错误错误错误错误错误错误
+                </div>
+            </div>
+            <div class="item-box-textcenter">
+                <input type="checkbox">&nbsp;&nbsp;我已阅读并同意遵守 《富连网用户注册协议》
+            </div>
+            <div class="item-box-textcenter">
+                <div class="reg-btn">注册</div>
+            </div>
+       </div>
+       <div class="reg-r">
+           已注册帐号？点击 <a href="">登录</a> 或 <a href="">找回密码？</a>
+       </div>
+    </section>
+    <div class="bottom-b"></div>
+</body>
+</html>

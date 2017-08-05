@@ -1,0 +1,73 @@
+.login_head {
+  height: 90px; }
+  .login_head .logo {
+    float: left;
+    margin: 20px 0 0 20px; }
+
+section {
+  height: 470px;
+  padding-top: 30px;
+  background: #6a3b9b; }
+  section .container > img {
+    float: left; }
+  section .login-box {
+    width: 380px;
+    height: 435px;
+    box-sizing: border-box;
+    float: left;
+    background: #FFF;
+    margin-left: 30px;
+    padding: 30px;
+    font-size: 14px; }
+    section .login-box h3 a {
+      float: right;
+      color: #1f77d0; }
+      section .login-box h3 a:hover {
+        text-decoration: underline; }
+    section .login-box .tips {
+      font-size: 14px;
+      color: #F00;
+      height: 38px;
+      margin: 15px 0; }
+    section .login-box .b_input, section .login-box #username, section .login-box #password, section .login-box #code {
+      display: block;
+      box-sizing: border-box;
+      height: 42px;
+      width: 320px;
+      border: 1px solid #DDD;
+      padding: 10px 30px 10px 10px;
+      margin-bottom: 10px; }
+    section .login-box #username {
+      background: url(../img/icon_account.png) no-repeat 290px center; }
+    section .login-box #password {
+      background: url(../img/icon_pass.png) no-repeat 290px center; }
+    section .login-box #code {
+      float: left;
+      width: 150px;
+      margin: 0; }
+    section .login-box .code-show {
+      float: left;
+      margin: 0 10px;
+      width: 100px;
+      height: 40px;
+      border: 1px solid #DDD; }
+    section .login-box .item-box, section .login-box .otherlog {
+      line-height: 40px;
+      margin-bottom: 10px; }
+      section .login-box .item-box label + a, section .login-box .otherlog label + a {
+        float: right; }
+    section .login-box .login-btn {
+      cursor: pointer;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      background: #1f77d0;
+      color: #FFF;
+      border-radius: 5px; }
+    section .login-box .otherlog span {
+      color: #9b9b9b; }
+    section .login-box .otherlog img {
+      display: inline-block;
+      cursor: pointer; }
+
+/*# sourceMappingURL=login.css.map */

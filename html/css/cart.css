@@ -1,0 +1,150 @@
+.reg_head {
+  height: 90px; }
+  .reg_head .logo {
+    float: left;
+    margin: 20px 0 0 20px; }
+  .reg_head .tit-a {
+    height: 50px;
+    float: left;
+    border-left: 3px solid #DDD;
+    margin: 30px 0 0 40px;
+    font-size: 36px;
+    text-indent: 0.5em;
+    color: #777; }
+
+section {
+  margin: 50px auto;
+  width: 990px; }
+  section .cart_head {
+    height: 40px;
+    border: 1px solid #DDD;
+    background: #f3f3f3; }
+    section .cart_head > div {
+      float: right;
+      line-height: 40px;
+      font-size: 14px;
+      color: #666; }
+      section .cart_head > div:nth-of-type(1), section .cart_head > div:nth-of-type(2) {
+        float: left; }
+      section .cart_head > div:nth-of-type(1) {
+        margin-left: 20px; }
+      section .cart_head > div:nth-of-type(2) {
+        margin-left: 20px; }
+      section .cart_head > div:nth-of-type(3) {
+        margin-right: 25px; }
+      section .cart_head > div:nth-of-type(4) {
+        margin-right: 60px; }
+      section .cart_head > div:nth-of-type(5) {
+        margin-right: 95px; }
+      section .cart_head > div:nth-of-type(6) {
+        margin-right: 80px; }
+  section .cart_item {
+    padding: 0 15px;
+    background: #FFF; }
+    section .cart_item li {
+      height: 77px;
+      line-height: 77px;
+      border-bottom: 1px solid #DDD;
+      padding: 20px 0; }
+      section .cart_item li > * {
+        float: left;
+        height: 100%;
+        font-size: 14px; }
+      section .cart_item li .li-1 {
+        margin-left: 10px; }
+      section .cart_item li .li-2 {
+        margin-left: 20px; }
+        section .cart_item li .li-2 img {
+          width: 75px;
+          height: 75px;
+          border: 1px solid #DDD; }
+      section .cart_item li .li-3 {
+        line-height: 20px;
+        width: 200px;
+        margin-left: 20px; }
+      section .cart_item li .li-4 {
+        line-height: 35px;
+        margin-left: 25px;
+        color: #666; }
+      section .cart_item li .li-5-a {
+        margin-left: 140px; }
+      section .cart_item li .li-5 {
+        box-sizing: border-box;
+        padding: 24px 0;
+        margin-left: 20px; }
+        section .cart_item li .li-5 input {
+          float: left;
+          height: 26px;
+          border: 1px solid #DDD;
+          width: 30px;
+          padding: 2px 10px;
+          font-size: 18px; }
+        section .cart_item li .li-5 .num-btn {
+          float: left;
+          height: 28px;
+          line-height: 30px;
+          text-align: left;
+          padding: 0 2px; }
+          section .cart_item li .li-5 .num-btn .iconfont {
+            font-size: 20px;
+            color: #908f8f; }
+          section .cart_item li .li-5 .num-btn:nth-of-type(2) .iconfont {
+            font-size: 30px; }
+      section .cart_item li .li-6 {
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 700; }
+      section .cart_item li .li-7 {
+        margin-left: 25px; }
+        section .cart_item li .li-7 span {
+          border: 1px solid #DDD;
+          padding: 2px 5px;
+          cursor: pointer; }
+          section .cart_item li .li-7 span:hover {
+            background: #1f77d0;
+            border-collapse: #1f77d0;
+            color: #FFF; }
+  section .cart_footer {
+    font-size: 14px;
+    color: #666;
+    height: 70px;
+    line-height: 70px;
+    border: 1px solid #DDD; }
+    section .cart_footer > *:nth-child(odd) {
+      float: left; }
+    section .cart_footer > *:nth-child(even) {
+      float: right; }
+    section .cart_footer .i1 {
+      margin-left: 20px; }
+    section .cart_footer .i2 {
+      padding: 0 35px;
+      background: #e4393c;
+      color: #FFF;
+      font-weight: 700;
+      font-size: 20px;
+      cursor: pointer; }
+    section .cart_footer .i3 {
+      margin-left: 40px;
+      cursor: pointer; }
+      section .cart_footer .i3:hover {
+        color: #1f77d0;
+        font-weight: 700; }
+    section .cart_footer .i4 {
+      margin-right: 30px; }
+      section .cart_footer .i4 span {
+        font-size: 18px;
+        font-weight: 700;
+        color: #e4393c; }
+    section .cart_footer .i5 {
+      margin-left: 30px;
+      cursor: pointer; }
+      section .cart_footer .i5:hover {
+        color: #1f77d0;
+        font-weight: 700; }
+    section .cart_footer .i6 {
+      margin-right: 20px; }
+      section .cart_footer .i6 span {
+        font-weight: 700;
+        color: #e4393c; }
+
+/*# sourceMappingURL=cart.css.map */

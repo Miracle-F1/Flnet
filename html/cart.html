@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/snippets.css" type="text/css">
+    <link rel="stylesheet" href="css/cart.css" type="text/css">
+    <script src="js/lib/jQuery-1.11.0.js"></script>
+    <script>
+        $(function(){
+            $.ajaxSetup({
+            cache: false //关闭AJAX相应的缓存
+            });
+            $(".header-a").load("html-snippets/top-1.html");
+            $(".bottom-b").load("html-snippets/bottom-2.html");
+        })
+    </script>
+</head>
+<body>
+    <div class="header-a"></div>
+    <div class="reg_head container">
+        <img src="img/logo.jpg" class=logo>
+        <div class="tit-a">购物车</div>
+    </div>
+    <section>
+        <div class="cart_head">
+           <div>
+               <input type="checkbox">全选
+           </div> 
+           <div>商品</div> 
+           <div>操作</div> 
+           <div>小计</div> 
+           <div>数量</div> 
+           <div>单价</div> 
+        </div>
+        <ul class="cart_item">
+            <li>
+                <div class="li-1">
+                    <input type="checkbox">
+                </div>
+                <div class="li-2">
+                    <img src="img/product/iPhone7/1/nm.jpg" alt="">
+                </div>
+                <div class="li-3">Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</div>
+                <div class="li-4">颜色:<span>磨砂黑</span><br>容量: <span>128G</span></div>
+                <div class="li-5-a">
+                    ￥4999.00
+                </div>
+                <div class="li-5">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
+                    <input type="text" maxlength="3">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
+                </div>
+                <div class="li-6">￥4999.00</div>
+                <div class="li-7"><span>删除</span></div>
+            </li>            <li>
+                <div class="li-1">
+                    <input type="checkbox">
+                </div>
+                <div class="li-2">
+                    <img src="img/product/iPhone7/1/nm.jpg" alt="">
+                </div>
+                <div class="li-3">Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</div>
+                <div class="li-4">颜色:<span>磨砂黑</span><br>容量: <span>128G</span></div>
+                <div class="li-5-a">
+                    ￥4999.00
+                </div>
+                <div class="li-5">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
+                    <input type="text" maxlength="3">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
+                </div>
+                <div class="li-6">￥4999.00</div>
+                <div class="li-7"><span>删除</span></div>
+            </li>            <li>
+                <div class="li-1">
+                    <input type="checkbox">
+                </div>
+                <div class="li-2">
+                    <img src="img/product/iPhone7/1/nm.jpg" alt="">
+                </div>
+                <div class="li-3">Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</div>
+                <div class="li-4">颜色:<span>磨砂黑</span><br>容量: <span>128G</span></div>
+                <div class="li-5-a">
+                    ￥4999.00
+                </div>
+                <div class="li-5">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
+                    <input type="text" maxlength="3">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
+                </div>
+                <div class="li-6">￥4999.00</div>
+                <div class="li-7"><span>删除</span></div>
+            </li>            <li>
+                <div class="li-1">
+                    <input type="checkbox">
+                </div>
+                <div class="li-2">
+                    <img src="img/product/iPhone7/1/nm.jpg" alt="">
+                </div>
+                <div class="li-3">Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</div>
+                <div class="li-4">颜色:<span>磨砂黑</span><br>容量: <span>128G</span></div>
+                <div class="li-5-a">
+                    ￥4999.00
+                </div>
+                <div class="li-5">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
+                    <input type="text" maxlength="3">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
+                </div>
+                <div class="li-6">￥4999.00</div>
+                <div class="li-7"><span>删除</span></div>
+            </li>            <li>
+                <div class="li-1">
+                    <input type="checkbox">
+                </div>
+                <div class="li-2">
+                    <img src="img/product/iPhone7/1/nm.jpg" alt="">
+                </div>
+                <div class="li-3">Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</div>
+                <div class="li-4">颜色:<span>磨砂黑</span><br>容量: <span>128G</span></div>
+                <div class="li-5-a">
+                    ￥4999.00
+                </div>
+                <div class="li-5">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
+                    <input type="text" maxlength="3">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
+                </div>
+                <div class="li-6">￥4999.00</div>
+                <div class="li-7"><span>删除</span></div>
+            </li>
+        </ul>
+        <div class="cart_footer clear">
+            <div class="i1">
+                <input type="checkbox">全选
+            </div>
+            <div class="i2">
+                去结算
+            </div>
+            <div class="i3">
+                删除所选商品
+            </div>
+            <div class="i4">
+                总价：<span>￥4999.00</span>
+            </div>
+            <div class="i5">
+                清空购物车
+            </div>
+            <div class="i6">
+                已选择 <span>5</span> 件商品
+            </div>
+        </div>
+    </section>
+    <div class="bottom-b"></div>
+</body>
+</html>

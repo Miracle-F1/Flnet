@@ -1,0 +1,197 @@
+@import "config.scss";
+
+.reg_head{
+    height: 90px;
+    .logo{
+        float: left;
+        margin: 20px 0 0 20px;
+    }
+    .tit-a{
+        height: 50px;
+        float: left;
+        border-left: 3px solid #DDD;
+        margin: 30px 0 0 40px;
+        font-size: 36px;
+        text-indent: 0.5em;
+        color: #777;
+    }
+}
+section{
+    margin: 50px auto;
+    width: 990px;
+    .cart_head{
+        height: 40px;
+        border: $border1;
+        background: #f3f3f3;
+        > div{
+            float: right;
+            line-height: 40px;
+            font-size: 14px;
+            color: #666;
+            &:nth-of-type(1),&:nth-of-type(2){
+                float: left;
+            }
+            &:nth-of-type(1){
+                margin-left: 20px;
+            }            
+            &:nth-of-type(2){
+                margin-left: 20px;
+            }            
+            &:nth-of-type(3){
+                margin-right: 25px;
+            }            
+            &:nth-of-type(4){
+                margin-right: 60px;
+            }            
+            &:nth-of-type(5){
+                margin-right: 95px;
+            }            
+            &:nth-of-type(6){
+                margin-right: 80px;
+            }
+        }
+    }
+    .cart_item{
+        padding: 0 15px;
+        background: #FFF;
+        li{
+            height: 77px;
+            line-height: 77px;
+            border-bottom: $border1;
+            padding: 20px 0;
+            > *{
+                float: left;
+                height: 100%;
+                font-size: 14px;
+            }
+            .li-1{
+                margin-left: 10px;
+            }
+            .li-2{
+                margin-left: 20px;
+                img{
+                    width: 75px;
+                    height: 75px;
+                    border: $border1;
+                }
+            }
+            .li-3{
+                line-height: 20px;
+                width: 200px;
+                margin-left: 20px;
+            }
+            .li-4{
+                line-height: 35px;
+                margin-left: 25px;
+                color: #666;
+            }
+            .li-5-a{
+                margin-left: 140px;
+                
+            }
+            .li-5{ 
+                box-sizing: border-box;
+                padding: 24px 0;
+                margin-left: 20px;
+                input{
+                    float: left;
+                    height: 26px;
+                    border: $border1;
+                    width: 30px;
+                    padding: 2px 10px;
+                    font-size: 18px;
+                }
+                .num-btn{
+                    float: left;
+                    height: 28px;
+                    line-height: 30px;
+                    text-align: left;
+                    padding: 0 2px;
+                    .iconfont{
+                        font-size: 20px;
+                        color: #908f8f;
+                    }
+                    &:nth-of-type(2){
+                        .iconfont{
+                            font-size: 30px;
+                        }
+                    }
+                }
+            }
+            .li-6{
+                margin-left: 20px;
+                font-size: 16px;
+                font-weight: 700;
+            }
+            .li-7{
+                margin-left: 25px;
+                span{
+                    border: $border1;
+                    padding: 2px 5px;
+                    cursor: pointer;
+                    &:hover{
+                        background: $maincolor;
+                        border-collapse: $maincolor;
+                        color: #FFF;
+                    }
+                }
+            }
+        }
+    }
+    .cart_footer{
+        font-size: 14px;
+        color: #666;
+        height: 70px;
+        line-height: 70px;
+        border:$border1;
+        >*:nth-child(odd){
+            float: left;
+
+        }
+        >*:nth-child(even){
+            float: right;
+        }
+        .i1{
+            margin-left: 20px;
+        }
+        .i2{
+            padding: 0 35px;
+            background: $maincolor2;
+            color: #FFF;
+            font-weight: 700;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .i3{
+            margin-left: 40px;
+            cursor: pointer;
+            &:hover{
+                color: $maincolor;
+                font-weight: 700;
+            }
+        }
+        .i4{
+            margin-right: 30px;
+            span{
+                font-size: 18px;
+                font-weight: 700;
+                color: $maincolor2;
+            }
+        }
+        .i5{
+            margin-left: 30px;
+            cursor: pointer;
+            &:hover{
+                color: $maincolor;
+                font-weight: 700;
+            }
+        }
+        .i6{
+            margin-right: 20px;
+            span{
+                font-weight: 700;
+                color: $maincolor2;
+            }
+        }
+    }
+}

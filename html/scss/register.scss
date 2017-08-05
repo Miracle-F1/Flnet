@@ -1,0 +1,125 @@
+@import "config.scss";
+
+.reg_head{
+    height: 90px;
+    .logo{
+        float: left;
+        margin: 20px 0 0 20px;
+    }
+    .tit-a{
+        height: 50px;
+        float: left;
+        border-left: 3px solid #DDD;
+        margin: 30px 0 0 40px;
+        font-size: 36px;
+        text-indent: 0.5em;
+        color: #777;
+    }
+}
+section{
+    background: #FFF;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    font-size:14px;
+    .reg-l,.reg-r{
+        float: left;
+    }
+    .reg-l{
+        border-right: $border1;
+        padding: 0 50px;
+    }
+    .reg-r{
+        text-align: center;
+        width: 400px;
+        a{
+            color:$maincolor;
+            font-weight: 700;
+        }
+    }
+    .b_input{
+        display: block;
+        box-sizing: border-box;
+        height: 35px;
+        width: 300px;
+        border:$border1;
+        padding: 10px 30px 10px 10px;
+        margin-bottom: 10px;
+    }
+    #username,#password,#conf-password,#email{
+            @extend .b_input;
+    }
+    #username{
+            background: url(../img/icon_phone.png) no-repeat 270px center;
+    }
+    #email{
+            background: url(../img/icon_email.png) no-repeat 270px center;
+    }
+    #password,#conf-password{
+            background: url(../img/icon_pass.png) no-repeat 270px center;
+    }
+        #code{
+            @extend .b_input;
+            float: left;
+            width: 100px;
+            margin: 0;
+        }
+        .code-show{
+            float: left;
+            margin: 0 10px;
+            width: 100px;
+            height: 35px;
+            border:$border1;
+        }
+        .get-code{
+            float: left;
+            height: 33px;
+            border: $border1;
+            line-height: 33px;
+            text-align: center;
+            cursor: pointer;
+            width: 100px;
+            background: #f4f4f4;
+            margin-left: 10px;
+        }
+    .reg-btn{
+        @extend .get-code;
+        width: 300px;
+        height: 45px;
+        background: #ff9700;
+        margin: 0 100px;
+        font:700 18px/45px "";
+        color: #FFF;
+        border-radius: 7px;
+    }
+    .item-box{
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 30px;
+        width: 500px;
+        position: relative;
+        .i-l{
+            width: 130px;
+            height: 100%;
+            float: left;
+            text-align: right;
+            padding-right: 20px;
+        }
+        .i-r{
+            float: left;
+        }
+        .tips{
+            position: absolute;
+            width: 350px;
+            height: 30px;
+            right: 0;
+            top: 35px;
+            font-size: 12px;
+            line-height: 30px;
+            color: #F00;
+        }
+    }
+    .item-box-textcenter{
+        @extend .item-box;
+        text-align: center;
+    }
+}

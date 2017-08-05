@@ -1,0 +1,142 @@
+.resent_look {
+  float: left;
+  width: 218px;
+  border: 1px solid #DDD;
+  background: #FFF; }
+  .resent_look h4 {
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #DDD; }
+    .resent_look h4 span {
+      float: right;
+      color: #1f77d0;
+      cursor: pointer; }
+  .resent_look ul {
+    box-sizing: border-box;
+    padding: 0 20px; }
+    .resent_look ul li {
+      padding: 20px 0;
+      border-bottom: 1px solid #DDD; }
+      .resent_look ul li a {
+        display: block; }
+        .resent_look ul li a img {
+          width: 180px;
+          height: 180px;
+          margin-bottom: 15px; }
+        .resent_look ul li a p {
+          font-size: 14px;
+          color: #666;
+          margin-bottom: 10px; }
+        .resent_look ul li a .price {
+          height: 20px;
+          font: 700 18px/20px "";
+          color: #e4393c; }
+
+section {
+  padding: 30px 0; }
+  section .main-content {
+    float: right;
+    width: 960px; }
+    section .main-content .main-title {
+      width: 958px;
+      border: 1px solid #DDD;
+      height: 35px;
+      background: #f1f1f1;
+      padding: 5px;
+      margin-bottom: 20px; }
+      section .main-content .main-title .mt-l {
+        float: left;
+        height: 35px; }
+        section .main-content .main-title .mt-l p {
+          float: left;
+          height: 33px;
+          background: #FFF;
+          border: 1px solid #DDD;
+          padding: 0 15px;
+          line-height: 23px;
+          line-height: 33px;
+          font-size: 14px;
+          cursor: pointer; }
+          section .main-content .main-title .mt-l p.active {
+            border-color: #e4393c;
+            background: #e4393c;
+            color: #FFF; }
+          section .main-content .main-title .mt-l p:not(.active):hover {
+            color: #e4393c; }
+    section .main-content .product_list {
+      width: 960px;
+      margin-bottom: 50px; }
+      section .main-content .product_list li {
+        float: left;
+        margin: 10px 5px 0 5px;
+        width: 228px;
+        border: 1px solid #DDD;
+        background: #FFF; }
+        section .main-content .product_list li .li-t {
+          height: 220px;
+          padding: 15px 5px; }
+          section .main-content .product_list li .li-t img {
+            width: 220px;
+            height: 220px; }
+        section .main-content .product_list li p {
+          padding: 0 15px;
+          font-size: 14px;
+          margin-bottom: 15px; }
+        section .main-content .product_list li .price {
+          padding: 0 25px;
+          font-size: 18px;
+          font-weight: 700;
+          color: #e4393c; }
+        section .main-content .product_list li .li-b {
+          height: 30px;
+          border-top: 1px solid #DDD; }
+          section .main-content .product_list li .li-b input {
+            float: left;
+            height: 25px;
+            border: 1px solid #DDD;
+              border-top: 0;
+              border-bottom: 0;
+            width: 30px;
+            padding: 2px 10px;
+            font-size: 18px; }
+          section .main-content .product_list li .li-b .num-btn {
+            float: left;
+            height: 30px;
+            line-height: 30px;
+            text-align: left;
+            padding: 0 2px; }
+            section .main-content .product_list li .li-b .num-btn .iconfont {
+              font-size: 20px;
+              color: #908f8f; }
+            section .main-content .product_list li .li-b .num-btn:nth-of-type(2) .iconfont {
+              font-size: 30px; }
+          section .main-content .product_list li .li-b .add_cart {
+            height: 30px;
+            width: 107px;
+            float: left;
+            color: #e4393c;
+            border-left: 1px solid #DDD;
+            text-align: center;
+            line-height: 30px;
+            font-weight: 700;
+            cursor: pointer; }
+    section .main-content .pages_nav .abttt, section .main-content .pages_nav .a_btn, section .main-content .pages_nav ul li {
+      padding: 5px 10px;
+      border: 1px solid #DDD;
+      text-align: center;
+      color: #666;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-left: 15px; }
+      section .main-content .pages_nav .abttt:hover, section .main-content .pages_nav .a_btn:hover, section .main-content .pages_nav ul li:hover, section .main-content .pages_nav .abttt.active, section .main-content .pages_nav .active.a_btn, section .main-content .pages_nav ul li.active {
+        background: #1f77d0;
+        color: #FFF; }
+    section .main-content .pages_nav .a_btn {
+      float: right; }
+    section .main-content .pages_nav ul {
+      float: right; }
+      section .main-content .pages_nav ul li {
+        float: left; }
+
+/*# sourceMappingURL=list.css.map */

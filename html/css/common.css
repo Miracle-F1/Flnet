@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td{
+    margin:0;padding:0;
+} 
+body{
+    word-wrap:break-word;
+}
+a{
+    text-decoration:none;
+}
+a,a:hover,a:visited,a:active{
+    color: #000;
+}
+li{
+    list-style:none;
+}
+img{
+    display: block;
+}
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    background: #f5f5f5;
+    font-family: "微软雅黑";
+}
+
+.container{
+    width:1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 372176 */
+  src: url('//at.alicdn.com/t/font_74ovrci9hd26gvi.eot');
+  src: url('//at.alicdn.com/t/font_74ovrci9hd26gvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_74ovrci9hd26gvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_74ovrci9hd26gvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_74ovrci9hd26gvi.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size: 16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}

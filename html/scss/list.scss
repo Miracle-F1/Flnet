@@ -1,0 +1,185 @@
+@import "config.scss";
+
+.resent_look{
+    float: left;
+    width: 218px;
+    border: $border1;
+    background: #FFF;
+    h4{
+        padding: 0 20px;
+        height: 30px;
+        line-height: 30px;
+        border-bottom: $border1;
+        span{
+            float: right;
+            color: $maincolor;
+            cursor: pointer;
+        }
+    }
+    ul{
+        box-sizing: border-box;
+        padding: 0 20px;
+        li{
+            padding: 20px 0 ;
+            border-bottom: $border1;
+            a{
+                display: block;
+                img{
+                    width: 180px;
+                    height: 180px;
+                    margin-bottom: 15px;
+                }
+                p{
+                    font-size: 14px;
+                    color: #666;
+                    margin-bottom: 10px;
+
+                }
+                .price{
+                    height: 20px;
+                    font: 700 18px/20px "";
+                    color: #e4393c;
+                }
+            }
+        }
+    }
+}
+section{
+    padding: 30px 0;
+    .main-content{
+        float: right;
+        width: 960px;
+        .main-title{
+            width:958px;
+            border:$border1;
+            height:35px;
+            background:#f1f1f1;
+            padding:5px;
+            margin-bottom: 20px;
+            .mt-l{
+                float:left;
+                height: 35px;
+                p{
+                    float: left;
+                    height: 33px;
+                    background: #FFF;
+                    border: 1px solid #DDD;
+                    padding: 0 15px;
+                    line-height: 23px;
+                    line-height: 33px;
+                    font-size: 14px;
+                    cursor: pointer;
+                    &.active{
+                        border-color: #e4393c;
+                        background: #e4393c;
+                        color: #FFF;
+                    }
+                    &:not(.active):hover{
+                        color: #e4393c;
+                    }
+                }
+            }
+        }
+        .product_list{
+            width: 960px;
+            margin-bottom: 50px;
+            li{
+                float: left;
+                margin: 10px 5px 0 5px;
+                width: 228px;
+                border: $border1;
+                background: #FFF;
+                .li-t{
+                    height: 220px;
+                    padding: 15px 5px;
+                    img{
+                        width: 220px;
+                        height: 220px;
+                    }
+                }
+                p{
+                    padding: 0 15px;
+                    font-size: 14px;
+                    margin-bottom: 15px;
+                }
+                .price{
+                    padding: 0 25px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #e4393c;
+                }
+                .li-b{
+                    height: 30px;
+                    border-top: $border1;
+                    input{
+                        float: left;
+                        height: 25px;
+                        border: $border1{
+                            top:0;
+                            bottom:0;
+                            };
+                        width: 30px;
+                        padding: 2px 10px;
+                        font-size: 18px;
+                    }
+                    .num-btn{
+                        float: left;
+                        height: 30px;
+                        line-height: 30px;
+                        text-align: left;
+                        padding: 0 2px;
+                        .iconfont{
+                            font-size: 20px;
+                            color: #908f8f;
+                        }
+                        &:nth-of-type(2){
+                            .iconfont{
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                    .add_cart{
+                        height: 30px;
+                        width: 107px;
+                        float: left;
+                        color: $maincolor2;
+                        border-left: $border1;
+                        text-align: center;
+                        line-height: 30px;
+                        font-weight: 700;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+        }
+        .pages_nav{
+            .abttt{
+                padding: 5px 10px;
+                border: $border1;
+                text-align: center;
+                color: #666;
+                cursor: pointer;
+                border-radius: 5px;
+                margin-left: 15px;
+                &:hover,&.active{
+                    background: $maincolor;
+                    color: #FFF;
+                }
+            }
+            .a_btn{
+                @extend .abttt;
+                float: right;
+                
+            }
+            ul{
+                float: right;
+                li{
+                    @extend .abttt;
+                    float: left;
+                }
+            }
+            
+        }
+    }
+}

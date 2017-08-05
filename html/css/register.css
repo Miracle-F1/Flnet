@@ -1,0 +1,99 @@
+.reg_head {
+  height: 90px; }
+  .reg_head .logo {
+    float: left;
+    margin: 20px 0 0 20px; }
+  .reg_head .tit-a {
+    height: 50px;
+    float: left;
+    border-left: 3px solid #DDD;
+    margin: 30px 0 0 40px;
+    font-size: 36px;
+    text-indent: 0.5em;
+    color: #777; }
+
+section {
+  background: #FFF;
+  box-sizing: border-box;
+  padding: 30px 50px;
+  font-size: 14px; }
+  section .reg-l, section .reg-r {
+    float: left; }
+  section .reg-l {
+    border-right: 1px solid #DDD;
+    padding: 0 50px; }
+  section .reg-r {
+    text-align: center;
+    width: 400px; }
+    section .reg-r a {
+      color: #1f77d0;
+      font-weight: 700; }
+  section .b_input, section #username, section #password, section #conf-password, section #email, section #code {
+    display: block;
+    box-sizing: border-box;
+    height: 35px;
+    width: 300px;
+    border: 1px solid #DDD;
+    padding: 10px 30px 10px 10px;
+    margin-bottom: 10px; }
+  section #username {
+    background: url(../img/icon_phone.png) no-repeat 270px center; }
+  section #email {
+    background: url(../img/icon_email.png) no-repeat 270px center; }
+  section #password, section #conf-password {
+    background: url(../img/icon_pass.png) no-repeat 270px center; }
+  section #code {
+    float: left;
+    width: 100px;
+    margin: 0; }
+  section .code-show {
+    float: left;
+    margin: 0 10px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #DDD; }
+  section .get-code, section .reg-btn {
+    float: left;
+    height: 33px;
+    border: 1px solid #DDD;
+    line-height: 33px;
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+    background: #f4f4f4;
+    margin-left: 10px; }
+  section .reg-btn {
+    width: 300px;
+    height: 45px;
+    background: #ff9700;
+    margin: 0 100px;
+    font: 700 18px/45px "";
+    color: #FFF;
+    border-radius: 7px; }
+  section .item-box, section .item-box-textcenter {
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    width: 500px;
+    position: relative; }
+    section .item-box .i-l, section .item-box-textcenter .i-l {
+      width: 130px;
+      height: 100%;
+      float: left;
+      text-align: right;
+      padding-right: 20px; }
+    section .item-box .i-r, section .item-box-textcenter .i-r {
+      float: left; }
+    section .item-box .tips, section .item-box-textcenter .tips {
+      position: absolute;
+      width: 350px;
+      height: 30px;
+      right: 0;
+      top: 35px;
+      font-size: 12px;
+      line-height: 30px;
+      color: #F00; }
+  section .item-box-textcenter {
+    text-align: center; }
+
+/*# sourceMappingURL=register.css.map */

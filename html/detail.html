@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="css/snippets.css" type="text/css">
+    <link rel="stylesheet" href="css/detail.css" type="text/css">
+    <script src="js/lib/jQuery-1.11.0.js"></script>
+    <script>
+        $(function(){
+            $.ajaxSetup({
+            cache: false //关闭AJAX相应的缓存
+            });
+            $(".header-a").load("html-snippets/top-1.html");
+            $(".header-b").load("html-snippets/top-2.html");
+            $(".bottom-a").load("html-snippets/bottom-1.html");
+            $(".bottom-b").load("html-snippets/bottom-2.html");
+        })
+    </script>
+</head>
+<body>
+<div class="header-a"></div>
+<div class="header-b"></div>
+<section class="container">
+    <div class="product_box clear">
+        <div class="pb-l clear">
+            <div class="img_box">
+                <img src="img/product/iPhone7/1/h1.jpg">
+            </div>
+            <div class="img_list">
+                <div class="prev"><i class="iconfont">&#xe609;</i></div>
+                <div class="next"><i class="iconfont">&#xe646;</i></div>
+                <div class="small_img_bar">
+                   <ul class="clear">
+                        <li><img src="img/product/iPhone7/1/s1.jpg"></li>
+                        <li><img src="img/product/iPhone7/1/s2.jpg"></li>
+                        <li><img src="img/product/iPhone7/1/s3.jpg"></li>
+                        <li><img src="img/product/iPhone7/1/s4.jpg"></li>
+                        <li><img src="img/product/iPhone7/1/s5.jpg"></li>
+                   </ul>
+                </div>
+            </div>
+        </div>
+        <div class="pb-r clears">
+            <h3>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</h3>
+            <h5>8月热卖iPhone！</h5>
+            <div class="price_tag">
+                <div class="pt-1">
+                    <span>富连网价</span>
+                    <span>￥4999.00</span>
+                    <span>降价通知</span>
+                </div>
+                <div class="pt-2">
+                    <span>套餐</span>
+                    买iPhone送智能手环一个
+                </div>
+            </div>
+            <div class="pbr-1 clear">
+                <div class="p1">好评度：<br><span>100%</span></div>
+                <div class="p2">
+                    <div class="p2-item">
+                       好评：
+                       <div class="process-bar"></div>
+                       <span id="lv1">100%</span> 
+                    </div>
+                    <div class="p2-item">
+                       中评：
+                       <div class="process-bar"></div>
+                       <span id="lv1">100%</span> 
+                    </div>
+                    <div class="p2-item">
+                       差评：
+                       <div class="process-bar"></div>
+                       <span id="lv1">100%</span> 
+                    </div>
+                </div>
+            </div>
+            <div class="select-bar">
+                <div class="title">颜色:</div>
+                <div class="type-item">磨砂黑</div>
+                <div class="type-item">亮黑色</div>
+                <div class="type-item">金色</div>
+                <div class="type-item">银色</div>
+                <div class="type-item">玫瑰金</div>
+            </div>
+            <div class="select-bar">
+                <div class="title">容量:</div>
+                <div class="type-item">32G</div>
+                <div class="type-item">128G</div>
+                <div class="type-item">256G</div>
+            </div>
+            <div class="buy-item">
+                <div class="buy-t">
+                    <span>购买数量：</span>
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
+                    <input type="text" maxlength="3">
+                    <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
+                </div>
+                <div class="buy-b">
+                    <div class="bb-btn">立即购买</div>
+                    <div class="bb-btn">加入购物车</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container clear">
+        <div class="resent_look">
+            <h4>最近浏览<span>清空</span></h4>
+            <ul>
+                <li><a href="">
+                <img src="img/product/iPhone7/1/nm.jpg">
+                <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
+                <div class="price">
+                    ￥4999.00
+                </div>
+                </a></li>
+                <li><a href="">
+                <img src="img/product/iPhone7/1/nm.jpg">
+                <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
+                <div class="price">
+                    ￥4999.00
+                </div>
+                </a></li>
+                <li><a href="">
+                <img src="img/product/iPhone7/1/nm.jpg">
+                <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
+                <div class="price">
+                    ￥4999.00
+                </div>
+                </a></li>
+                <li><a href="">
+                <img src="img/product/iPhone7/1/nm.jpg">
+                <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
+                <div class="price">
+                    ￥4999.00
+                </div>
+                </a></li>
+            </ul>
+        </div>
+        <div class="main-show">
+            <div class="main-title-bar-back">
+                <ul class="main-title-bar">
+                    <li class="active">商品介绍</li>
+                    <li>规格参数</li>
+                    <li>包装清单</li>
+                    <li>售后保障</li>
+                    <li>商品评价</li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <img src="img/product/iPhone7/1/show/s1.jpg">
+                <img src="img/product/iPhone7/1/show/s2.jpg">
+                <img src="img/product/iPhone7/1/show/s3.jpg">
+                <img src="img/product/iPhone7/1/show/s4.jpg">
+                <img src="img/product/iPhone7/1/show/s5.jpg">
+                <img src="img/product/iPhone7/1/show/s6.jpg">
+                <img src="img/product/iPhone7/1/show/s7.jpg">
+            </div>
+            <div class="main-msg">
+                <div class="msg-t">商品评价</div>
+                <ul class="msg-nav">
+                    <li class="active">全部(<span>100</span>)</li>
+                    <li>好评(<span>100</span>)</li>
+                    <li>中评(<span>100</span>)</li>
+                    <li>差评(<span>100</span>)</li>
+                </ul>
+                <ul class="msg_list">
+                   <li class="clear">
+                       <div class="li-l">
+                            <img src="img/hee.jpg">
+                           <p>布洛妮娅</p>
+                       </div>
+                       <div class="li-r">
+                           <div class="li-rt">
+                               <div class="rt-l">
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                               </div>
+                               <div class="rt-r">
+                                   2017-8-4 16:27
+                               </div>
+                           </div>
+                           <div class="li-rb">
+                               东西不错，值得推荐!!!
+                           </div>
+                       </div>
+                   </li>
+                   <li class="clear">
+                       <div class="li-l">
+                            <img src="img/hee.jpg">
+                           <p>布洛妮娅</p>
+                       </div>
+                       <div class="li-r">
+                           <div class="li-rt">
+                               <div class="rt-l">
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                               </div>
+                               <div class="rt-r">
+                                   2017-8-4 16:27
+                               </div>
+                           </div>
+                           <div class="li-rb">
+                               东西不错，值得推荐!!!
+                           </div>
+                       </div>
+                   </li>
+                   <li class="clear">
+                       <div class="li-l">
+                            <img src="img/hee.jpg">
+                           <p>布洛妮娅</p>
+                       </div>
+                       <div class="li-r">
+                           <div class="li-rt">
+                               <div class="rt-l">
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                               </div>
+                               <div class="rt-r">
+                                   2017-8-4 16:27
+                               </div>
+                           </div>
+                           <div class="li-rb">
+                               东西不错，值得推荐!!!
+                           </div>
+                       </div>
+                   </li>
+                   <li class="clear">
+                       <div class="li-l">
+                            <img src="img/hee.jpg">
+                           <p>布洛妮娅</p>
+                       </div>
+                       <div class="li-r">
+                           <div class="li-rt">
+                               <div class="rt-l">
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                               </div>
+                               <div class="rt-r">
+                                   2017-8-4 16:27
+                               </div>
+                           </div>
+                           <div class="li-rb">
+                               东西不错，值得推荐!!!
+                           </div>
+                       </div>
+                   </li>
+                   <li class="clear">
+                       <div class="li-l">
+                            <img src="img/hee.jpg">
+                           <p>布洛妮娅</p>
+                       </div>
+                       <div class="li-r">
+                           <div class="li-rt">
+                               <div class="rt-l">
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                               </div>
+                               <div class="rt-r">
+                                   2017-8-4 16:27
+                               </div>
+                           </div>
+                           <div class="li-rb">
+                               东西不错，值得推荐!!!
+                           </div>
+                       </div>
+                   </li>
+                   <li class="clear">
+                       <div class="li-l">
+                            <img src="img/hee.jpg">
+                           <p>布洛妮娅</p>
+                       </div>
+                       <div class="li-r">
+                           <div class="li-rt">
+                               <div class="rt-l">
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                                   <i class="iconfont">&#xe611;</i>
+                               </div>
+                               <div class="rt-r">
+                                   2017-8-4 16:27
+                               </div>
+                           </div>
+                           <div class="li-rb">
+                               东西不错，值得推荐!!!
+                           </div>
+                       </div>
+                   </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="bottom-a"></div>
+<div class="bottom-b"></div>
+</body>
+</html>
