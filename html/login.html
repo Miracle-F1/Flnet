@@ -2,20 +2,12 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>登陆</title>
     <link rel="stylesheet" href="css/common.css" type="text/css">
     <link rel="stylesheet" href="css/snippets.css" type="text/css">
     <link rel="stylesheet" href="css/login.css" type="text/css">
-    <script src="js/lib/jQuery-1.11.0.js"></script>
-    <script>
-        $(function(){
-            $.ajaxSetup({
-            cache: false //关闭AJAX相应的缓存
-            });
-            $(".header-a").load("html-snippets/top-1.html");
-            $(".bottom-b").load("html-snippets/bottom-2.html");
-        })
-    </script>
+    <script src="js/sea.js" type="text/javascript"></script>
+    <script>seajs.use("login.js");</script>
 </head>
 <body>
     <div class="header-a"></div>
@@ -26,7 +18,7 @@
         <div class="container">
             <img src="img/login_pic.jpg">
             <div class="login-box">
-                <h3>会员登录 <a href="">快速注册</a></h3>
+                <h3>会员登录 <a href="register.html">快速注册</a></h3>
                 <div class="tips">
                     <i class="iconfont">&#xe61c;</i>
                     错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误错误

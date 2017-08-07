@@ -6,10 +6,10 @@ define(function (require,exports,module) {
     let common = require("common");
     let template = require("lib/template");
 
-    main(jQuery,common,template);
+    main(common,template);
 });
 
-function main(jQuery,common,template){
+function main(common,template){
     $(function(){
         //页面初始化
         let inint_item=
@@ -17,24 +17,16 @@ function main(jQuery,common,template){
             common.headerLoadB,
             common.bottomLoadA,
             common.bottomLoadB,
+            common.pageInit,
                 rightNavInit,
                 topADInit,
                 bannerInit];
 
-        pageInit(inint_item);
-
+        common.pageInit(inint_item);
 
     });
 
     //===================================Function=========================================
-
-    function pageInit(inint_item){
-        if(inint_item){
-            for(let i in inint_item){
-                inint_item[i]();
-            }
-        }
-    }
 
     //左边导航栏
     function rightNavInit(inint_item){

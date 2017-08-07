@@ -50,7 +50,10 @@ section {
       margin: 0 10px;
       width: 100px;
       height: 40px;
-      border: 1px solid #DDD; }
+      border: 1px solid #DDD;
+      user-select: none;
+      font: 700 28px/40px "";
+      text-align: center; }
     section .login-box .item-box, section .login-box .otherlog {
       line-height: 40px;
       margin-bottom: 10px; }

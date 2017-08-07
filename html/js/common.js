@@ -4,7 +4,6 @@
 define(function (require,exports,module) {
     let jQuery= require("lib/jQuery-1.11.0");
     let template = require("lib/template");
-
         //对外接口
         function headerLoadA(){
             $.ajaxSetup({cache: false}); //关闭AJAX相应的缓存
@@ -31,6 +30,15 @@ define(function (require,exports,module) {
         }
 
         //-----------------------------内部函数-----------------------------
+
+        //页面初始化
+        function pageInit(inint_item){
+            if(inint_item){
+                for(let i in inint_item){
+                    inint_item[i]();
+                }
+            }
+        }
 
         //搜索框
         function searchInit(){
@@ -95,7 +103,8 @@ define(function (require,exports,module) {
             headerLoadA:headerLoadA,
             headerLoadB:headerLoadB,
             bottomLoadA:bottomLoadA,
-            bottomLoadB:bottomLoadB
+            bottomLoadB:bottomLoadB,
+            pageInit:pageInit
         }
     }
 );
