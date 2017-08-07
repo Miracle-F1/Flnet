@@ -29,9 +29,18 @@
     <div id="banner">
         <div class="container">
             <ul class="pic_show">
+            <script id="bannerTemp" type="text/html">
+                {{each BannerURL as val key}}
                 <li>
-                    <img src="img/banner1.jpg">
+                    <img src="{{val}}">
                 </li>
+                {{if key == BannerURL.length-1}}
+                <li>
+                    <img src="{{BannerURL[0]}}">
+                </li>
+                {{/if}}
+                {{/each}}
+            </script>
             </ul>
             <ul class="pic_nav">
                 <li class="active">1</li>

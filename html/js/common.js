@@ -30,10 +30,10 @@ define(function (require,exports,module) {
         //内部函数
         function searchInit(){
             let $slideContent = $(".slide-content");
-            $(".search-box").mouseleave(function () {
-                $slideContent.fadeOut("fast");
-            }).find("input").click(function () {
+            $(".search-box").find("input").click(function () {
                 $slideContent.fadeIn("fast");
+            }).end().find(".r-t i").click(function () {
+                $slideContent.fadeOut("fast");
             });
         }
 

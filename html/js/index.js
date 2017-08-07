@@ -4,10 +4,12 @@
 define(function (require,exports,module) {
     let jQuery= require("lib/jQuery-1.11.0");
     let common = require("common");
-    main(jQuery,common);
+    let template = require("lib/template");
+
+    main(jQuery,common,template);
 });
 
-function main(jQuery,common){
+function main(jQuery,common,template){
     $(function(){
         //页面初始化
         let inint_item=
@@ -16,7 +18,8 @@ function main(jQuery,common){
             common.bottomLoadA,
             common.bottomLoadB,
                 rightNavInit,
-                topADInit];
+                topADInit,
+                bannerInit];
 
         pageInit(inint_item);
 
@@ -52,9 +55,71 @@ function main(jQuery,common){
         })
     }
 
-    //banner
-    function bannerInit(){
-        let bannerIMGjson = ["","","","","",""];
+    //新闻
+    function newsInit(){
+        $.get("json/index.json",function (data) {
+            let html = template("newsTemp",data);
+            $(".pic_show").html(html);
+            setInterval(function () {
 
+            },1000);
+        });
+    }
+
+    //Banner
+    function bannerInit(){
+        let html = [];
+        let i = 0;
+        let showIndex=0;
+        let timer = null;
+        $.get("json/index.json",function (data) {
+            let html = template("bannerTemp",data);
+            $(".pic_show").html(html);
+            let $picLi = $(".pic_show li");
+            $picLi.eq(0).show();
+            timer = getTimer();
+            $(".pic_nav li").click(function () {
+                clickShow($(this).index());
+            });
+
+            $("#banner").find(".prev").click(function () {
+                if(showIndex == 0){
+                    clickShow(data["BannerURL"].length-1);
+                }else{
+                    clickShow(showIndex-1);
+                }
+            }).end().find(".next").click(function () {
+                if(showIndex == data["BannerURL"].length-1){
+                    clickShow(0);
+                }else{
+                    clickShow(showIndex+1);
+                }
+            });
+
+            function clickShow(index){
+                $(".pic_nav li").removeClass("active").eq(index).addClass("active");
+                $picLi.finish().hide().eq(index).fadeIn("fast");
+                i = showIndex = index;
+                timer = getTimer();
+            }
+
+            function getTimer(){
+                clearInterval(timer);
+                return setInterval(function () {
+                    $(".pic_nav li").removeClass("active").eq(showIndex).addClass("active");
+                    $picLi.eq(i).fadeIn("fast",function () {
+                        i++;
+                        if(i >= data["BannerURL"].length+1){
+                            $picLi.hide().eq(0).show();
+                            i=1;
+                        }
+                        showIndex = i;
+                        if(i == data["BannerURL"].length){
+                            showIndex = 0;
+                        }
+                    });
+                },1500);
+            }
+        });
     }
 }
