@@ -3,6 +3,7 @@
  */
 define(function (require,exports,module) {
     let jQuery= require("lib/jQuery-1.11.0");
+    let template = require("lib/template");
 
         //对外接口
         function headerLoadA(){
@@ -16,6 +17,8 @@ define(function (require,exports,module) {
             $(".header-b").load("html-snippets/top-2.html",function () {
                 searchInit();
                 headerCartInit();
+                newsInit();
+                navInit();
             });
         }
 
@@ -27,7 +30,9 @@ define(function (require,exports,module) {
             $(".bottom-b").load("html-snippets/bottom-2.html");
         }
 
-        //内部函数
+        //-----------------------------内部函数-----------------------------
+
+        //搜索框
         function searchInit(){
             let $slideContent = $(".slide-content");
             $(".search-box").find("input").click(function () {
@@ -41,6 +46,15 @@ define(function (require,exports,module) {
 
         }
 
+        //主导航
+        function navInit(){
+            $.get("json/index.json",function (data) {
+                let html = template("testTemp",data);
+                $(".type_list ul").html(html);
+            });
+        }
+
+        //右导航
         function rightNavInit(){
             $(".right-nav dd").eq(0).click(function () {
                 $("body").animate({"scrollTop":0},400);
@@ -51,6 +65,28 @@ define(function (require,exports,module) {
                 }else{
                     $(".right-nav dd").eq(0).fadeOut("fast");
                 }
+            });
+        }
+
+        //新闻
+        function newsInit(){
+            $.get("json/index.json",function (data) {
+                let newsArr = data["news"];
+                let oSpan = $(".header-news span");
+                let i = 0;
+                oSpan.html(newsArr[0]);
+                setInterval(function () {
+                    if(i>=newsArr.length-1){
+                        i = 0;
+                    }
+                    else{
+                        i++;
+                    }
+                    oSpan.fadeOut("fast",function () {
+                        oSpan.html(newsArr[i]);
+                        oSpan.show();
+                    });
+                },1500);
             });
         }
 

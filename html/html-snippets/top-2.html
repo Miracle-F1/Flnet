@@ -41,7 +41,7 @@
             </div>
             <div class="header-news">
                 <i class="iconfont">&#xe619;</i>新闻：
-                <span>XXXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+                <span></span>
             </div>
         </div>
     </div>
@@ -52,6 +52,39 @@
                 所有商品分类
                 <i class="iconfont">&#xe601;</i>
                 <div class="type_list">
+                    <ul>
+                        <script type="text/html" id="testTemp">
+                            {{each nav as val key}}
+                            <li>
+                                <i class="iconfont">{{val["icon-code"]}}</i>
+                                <div class="content">
+                                    <a href="">{{val["content"]["title"]}}</a><br/>
+                                    {{each val["content"]["reco"] as val key}}
+                                        <a href="">{{val}}</a>
+                                    {{/each}}
+                                </div>
+                                <div class="type_detail">
+                                    <ul>
+                                    {{each val["type-list"] as val key}}
+                                        <li class="clear">
+                                            <div class="list-l">
+                                                <a href="">{{val["type"]}} &gt;</a>
+                                            </div>
+                                            <ul class="clear">
+                                                {{each val["detail"] as val key}}
+                                                <li><a href=""> {{val}}</a></li>
+                                                {{/each}}
+                                            </ul>
+                                        </li>
+                                    {{/each}}
+                                    </ul>
+                                </div>
+                            </li>
+                            {{/each}}
+                        </script>
+                    </ul>
+                </div>
+                <!--<div class="type_list">
                     <ul>
                         <li>
                             <i class="iconfont">&#xe666;</i>
@@ -316,7 +349,7 @@
                             </div>
                         </li>
                     </ul>
-                </div>
+                </div>-->
             </div>
             <ul class="clear">
                 <li>消费者价值中心</li>

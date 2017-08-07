@@ -55,17 +55,6 @@ function main(jQuery,common,template){
         })
     }
 
-    //新闻
-    function newsInit(){
-        $.get("json/index.json",function (data) {
-            let html = template("newsTemp",data);
-            $(".pic_show").html(html);
-            setInterval(function () {
-
-            },1000);
-        });
-    }
-
     //Banner
     function bannerInit(){
         let html = [];
