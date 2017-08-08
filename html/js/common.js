@@ -4,6 +4,7 @@
 define(function (require,exports,module) {
     let jQuery= require("lib/jQuery-1.11.0");
     let template = require("lib/template");
+
         //对外接口
         function headerLoadA(){
             $.ajaxSetup({cache: false}); //关闭AJAX相应的缓存

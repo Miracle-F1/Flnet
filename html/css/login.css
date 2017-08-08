@@ -59,6 +59,22 @@ section {
       margin-bottom: 10px; }
       section .login-box .item-box label + a, section .login-box .otherlog label + a {
         float: right; }
+      section .login-box .item-box label, section .login-box .otherlog label {
+        position: relative; }
+        section .login-box .item-box label:hover div, section .login-box .otherlog label:hover div {
+          display: block; }
+        section .login-box .item-box label div, section .login-box .otherlog label div {
+          position: absolute;
+          display: none;
+          top: 20px;
+          width: 180px;
+          height: 25px;
+          color: #F00;
+          line-height: 25px;
+          font-weight: 700;
+          text-align: center;
+          background: #FFF;
+          border: 1px solid #DDD; }
     section .login-box .login-btn {
       cursor: pointer;
       text-align: center;

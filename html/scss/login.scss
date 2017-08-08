@@ -75,6 +75,27 @@ section{
             label + a{
                 float: right;
             }
+            label{
+                position: relative;
+                &:hover{
+                    div{
+                        display: block;
+                    }
+                }
+                div{
+                    position: absolute;
+                    display: none;
+                    top:20px;
+                    width: 180px;
+                    height:25px;
+                    color: #F00;
+                    line-height: 25px;
+                    font-weight: 700;
+                    text-align: center;
+                    background: #FFF;
+                    border:$border1;
+                }
+            }
         }
         .login-btn{
             cursor: pointer;

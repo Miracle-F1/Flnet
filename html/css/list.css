@@ -67,51 +67,54 @@ section {
     section .main-content .product_list {
       width: 960px;
       margin-bottom: 50px; }
-      section .main-content .product_list li {
+      section .main-content .product_list > li {
         float: left;
         margin: 10px 5px 0 5px;
         width: 228px;
         border: 1px solid #DDD;
         background: #FFF; }
-        section .main-content .product_list li .li-t {
+        section .main-content .product_list > li:hover {
+          outline: 4px solid #e4393c; }
+        section .main-content .product_list > li .li-t {
           height: 220px;
           padding: 15px 5px; }
-          section .main-content .product_list li .li-t img {
+          section .main-content .product_list > li .li-t img {
             width: 220px;
             height: 220px; }
-        section .main-content .product_list li p {
+        section .main-content .product_list > li p {
           padding: 0 15px;
           font-size: 14px;
           margin-bottom: 15px; }
-        section .main-content .product_list li .price {
+        section .main-content .product_list > li .price {
           padding: 0 25px;
           font-size: 18px;
           font-weight: 700;
           color: #e4393c; }
-        section .main-content .product_list li .li-b {
+        section .main-content .product_list > li .li-b {
           height: 30px;
           border-top: 1px solid #DDD; }
-          section .main-content .product_list li .li-b input {
+          section .main-content .product_list > li .li-b input {
             float: left;
             height: 25px;
+            text-align: center;
             border: 1px solid #DDD;
               border-top: 0;
               border-bottom: 0;
             width: 30px;
             padding: 2px 10px;
             font-size: 18px; }
-          section .main-content .product_list li .li-b .num-btn {
+          section .main-content .product_list > li .li-b .num-btn {
             float: left;
             height: 30px;
             line-height: 30px;
             text-align: left;
             padding: 0 2px; }
-            section .main-content .product_list li .li-b .num-btn .iconfont {
+            section .main-content .product_list > li .li-b .num-btn .iconfont {
               font-size: 20px;
               color: #908f8f; }
-            section .main-content .product_list li .li-b .num-btn:nth-of-type(2) .iconfont {
+            section .main-content .product_list > li .li-b .num-btn:nth-of-type(2) .iconfont {
               font-size: 30px; }
-          section .main-content .product_list li .li-b .add_cart {
+          section .main-content .product_list > li .li-b .add_cart {
             height: 30px;
             width: 107px;
             float: left;

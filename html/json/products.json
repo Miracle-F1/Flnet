@@ -1,0 +1,93 @@
+{
+  "a0001":{
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 ",
+    "detailImgArr":[
+      "img/product/a0001/show/s1.jpg",
+      "img/product/a0001/show/s2.jpg",
+      "img/product/a0001/show/s3.jpg",
+      "img/product/a0001/show/s4.jpg",
+      "img/product/a0001/show/s5.jpg",
+      "img/product/a0001/show/s6.jpg",
+      "img/product/a0001/show/s7.jpg"
+    ],
+    "type":{
+      "01":{
+        "title":"磨砂黑",
+        "imgArr":[
+          "img/product/a0001/1/img1.jpg",
+          "img/product/a0001/1/img2.jpg",
+          "img/product/a0001/1/img3.jpg",
+          "img/product/a0001/1/img4.jpg",
+          "img/product/a0001/1/img5.jpg",
+          "img/product/a0001/1/img6.jpg"
+        ],
+        "edition":{
+          "32G":{
+            "stock": "100",
+            "price": "5088"
+          },
+          "64G":{
+            "stock": "100",
+            "price": "6088"
+          },
+          "128G":{
+            "stock": "100",
+            "price": "7088"
+          }
+        }
+      },
+      "02":{
+        "title":"香槟金",
+        "imgArr":[
+          "img/product/a0001/2/img1.jpg",
+          "img/product/a0001/2/img2.jpg",
+          "img/product/a0001/2/img3.jpg",
+          "img/product/a0001/2/img4.jpg",
+          "img/product/a0001/2/img5.jpg",
+          "img/product/a0001/2/img6.jpg",
+          "img/product/a0001/2/img7.jpg",
+          "img/product/a0001/2/img8.jpg"
+        ],
+        "edition":{
+          "32G":{
+            "stock": "50",
+            "price": "5088"
+          },
+          "64G":{
+            "stock": "50",
+            "price": "6088"
+          },
+          "128G":{
+            "stock": "50",
+            "price": "7088"
+          }
+        }
+      },
+      "03":{
+        "title":"玫瑰金",
+        "imgArr":[
+          "img/product/a0001/3/img1.jpg",
+          "img/product/a0001/3/img2.jpg",
+          "img/product/a0001/3/img3.jpg",
+          "img/product/a0001/3/img4.jpg",
+          "img/product/a0001/3/img5.jpg"
+        ],
+        "edition":{
+          "32G":{
+            "stock": "10",
+            "price": "5088"
+          },
+          "64G":{
+            "stock": "10",
+            "price": "6088"
+          },
+          "128G":{
+            "stock": "10",
+            "price": "7088"
+          }
+        }
+      }
+    }
+  }
+
+}

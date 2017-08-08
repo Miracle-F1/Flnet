@@ -2,22 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>列表页</title>
     <link rel="stylesheet" href="css/common.css" type="text/css">
     <link rel="stylesheet" href="css/snippets.css" type="text/css">
     <link rel="stylesheet" href="css/list.css" type="text/css">
-    <script src="js/lib/jQuery-1.11.0.js"></script>
-    <script>
-        $(function(){
-            $.ajaxSetup({
-            cache: false //关闭AJAX相应的缓存
-            });
-            $(".header-a").load("html-snippets/top-1.html");
-            $(".header-b").load("html-snippets/top-2.html");
-            $(".bottom-a").load("html-snippets/bottom-1.html");
-            $(".bottom-b").load("html-snippets/bottom-2.html");
-        })
-    </script>
+    <script src="js/sea.js" type="text/javascript"></script>
+    <script>seajs.use("list.js");</script>
 </head>
 <body>
 <div class="header-a"></div>
@@ -67,6 +57,11 @@
                 </div>
             </div>
             <ul class="product_list clear">
+                <script id="productTemp" type="text/html">
+                    {{each data as val key}}
+                    key
+                    {{/each}}
+                </script>
                 <li>
                     <div class="li-t">
                         <img src="img/product/iPhone7/1/nm.jpg">
@@ -77,7 +72,7 @@
                     </div>
                     <div class="li-b">
                         <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
+                        <input type="text" maxlength="3" value="1">
                         <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
                         <div class="add_cart">加入购物车</div>
                     </div>

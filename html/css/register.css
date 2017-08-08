@@ -28,7 +28,7 @@ section {
     section .reg-r a {
       color: #1f77d0;
       font-weight: 700; }
-  section .b_input, section #username, section #password, section #conf-password, section #email, section #code {
+  section .b_input, section #phonenumber, section #password, section #conf-password, section #email, section #code {
     display: block;
     box-sizing: border-box;
     height: 35px;
@@ -36,7 +36,7 @@ section {
     border: 1px solid #DDD;
     padding: 10px 30px 10px 10px;
     margin-bottom: 10px; }
-  section #username {
+  section #phonenumber {
     background: url(../img/icon_phone.png) no-repeat 270px center; }
   section #email {
     background: url(../img/icon_email.png) no-repeat 270px center; }
@@ -51,7 +51,10 @@ section {
     margin: 0 10px;
     width: 100px;
     height: 35px;
-    border: 1px solid #DDD; }
+    border: 1px solid #DDD;
+    user-select: none;
+    font: 700 26px/35px "";
+    text-align: center; }
   section .get-code, section .reg-btn {
     float: left;
     height: 33px;
@@ -65,26 +68,32 @@ section {
   section .reg-btn {
     width: 300px;
     height: 45px;
-    background: #ff9700;
+    background: #DDD;
     margin: 0 100px;
     font: 700 18px/45px "";
     color: #FFF;
     border-radius: 7px; }
-  section .item-box, section .item-box-textcenter {
+    section .reg-btn.active {
+      background: #ff9700; }
+  section .item-box {
     height: 40px;
     line-height: 40px;
     margin-bottom: 30px;
     width: 500px;
     position: relative; }
-    section .item-box .i-l, section .item-box-textcenter .i-l {
+    section .item-box.email-box {
+      display: none; }
+    section .item-box.textcenter {
+      text-align: center; }
+    section .item-box .i-l {
       width: 130px;
       height: 100%;
       float: left;
       text-align: right;
       padding-right: 20px; }
-    section .item-box .i-r, section .item-box-textcenter .i-r {
+    section .item-box .i-r {
       float: left; }
-    section .item-box .tips, section .item-box-textcenter .tips {
+    section .item-box .tips {
       position: absolute;
       width: 350px;
       height: 30px;
@@ -93,7 +102,5 @@ section {
       font-size: 12px;
       line-height: 30px;
       color: #F00; }
-  section .item-box-textcenter {
-    text-align: center; }
 
 /*# sourceMappingURL=register.css.map */
