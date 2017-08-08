@@ -29,6 +29,7 @@ define(function (require,exports,module) {
         $.post("json/products.json",function (data) {
             let html = template("productTemp",data);
             console.log(html);
+            $(".product_list").html(html);
         });
     }
 });

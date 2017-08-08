@@ -57,27 +57,29 @@
                 </div>
             </div>
             <ul class="product_list clear">
+
                 <script id="productTemp" type="text/html">
-                    {{each data as val key}}
-                    key
+                    {{each list as val key}}
+                        {{each val["type"] as val key}}
+                        <li data-pid="{{key}}">
+                            <div class="li-t">
+                                {{each val['imgArr'] as val key}}{{if key<=0}}<img src="{{val}}">{{/if}}{{/each}}
+                            </div>
+                            <p>{{val["title"]}}</p>
+                            <div class="price">
+                                {{each val["edition"] as val key}}{{if key<=0}}￥{{val["price"]}}{{/if}}{{/each}}
+                            </div>
+                            <div class="li-b">
+                                <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
+                                <input type="text" maxlength="3" value="1">
+                                <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
+                                <div class="add_cart">加入购物车</div>
+                            </div>
+                        </li>
+                        {{/each}}
                     {{/each}}
                 </script>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3" value="1">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
-                <li>
+<!--                <li>
                     <div class="li-t">
                         <img src="img/product/iPhone7/1/nm.jpg">
                     </div>
@@ -91,157 +93,7 @@
                         <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
                         <div class="add_cart">加入购物车</div>
                     </div>
-                </li>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="li-t">
-                        <img src="img/product/iPhone7/1/nm.jpg">
-                    </div>
-                    <p>Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机</p>
-                    <div class="price">
-                        ￥4999.00
-                    </div>
-                    <div class="li-b">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                        <input type="text" maxlength="3">
-                        <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                        <div class="add_cart">加入购物车</div>
-                    </div>
-                </li>
+                </li>-->
             </ul>
             <div class="pages_nav clear">
                 <div class="a_btn">下一页&gt;</div>

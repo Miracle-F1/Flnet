@@ -80,7 +80,8 @@ section {
           padding: 15px 5px; }
           section .main-content .product_list > li .li-t img {
             width: 220px;
-            height: 220px; }
+            height: 220px;
+            cursor: pointer; }
         section .main-content .product_list > li p {
           padding: 0 15px;
           font-size: 14px;

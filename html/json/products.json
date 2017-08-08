@@ -1,93 +1,240 @@
 {
-  "a0001":{
-    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 ",
-    "detailImgArr":[
-      "img/product/a0001/show/s1.jpg",
-      "img/product/a0001/show/s2.jpg",
-      "img/product/a0001/show/s3.jpg",
-      "img/product/a0001/show/s4.jpg",
-      "img/product/a0001/show/s5.jpg",
-      "img/product/a0001/show/s6.jpg",
-      "img/product/a0001/show/s7.jpg"
-    ],
-    "type":{
-      "01":{
-        "title":"磨砂黑",
-        "imgArr":[
-          "img/product/a0001/1/img1.jpg",
-          "img/product/a0001/1/img2.jpg",
-          "img/product/a0001/1/img3.jpg",
-          "img/product/a0001/1/img4.jpg",
-          "img/product/a0001/1/img5.jpg",
-          "img/product/a0001/1/img6.jpg"
-        ],
-        "edition":{
-          "32G":{
-            "stock": "100",
-            "price": "5088"
-          },
-          "64G":{
-            "stock": "100",
-            "price": "6088"
-          },
-          "128G":{
-            "stock": "100",
-            "price": "7088"
-          }
+  "list":{
+    "a0001":{
+      "subtitle":"8月热卖iPhone！",
+      "detailImgArr":[
+        "img/product/a0001/show/s1.jpg",
+        "img/product/a0001/show/s2.jpg",
+        "img/product/a0001/show/s3.jpg",
+        "img/product/a0001/show/s4.jpg",
+        "img/product/a0001/show/s5.jpg",
+        "img/product/a0001/show/s6.jpg",
+        "img/product/a0001/show/s7.jpg"
+      ],
+      "type":{
+        "a0001-01":{
+          "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (磨砂黑)",
+          "imgArr":[
+            "img/product/a0001/1/img1.jpg",
+            "img/product/a0001/1/img2.jpg",
+            "img/product/a0001/1/img3.jpg",
+            "img/product/a0001/1/img4.jpg",
+            "img/product/a0001/1/img5.jpg",
+            "img/product/a0001/1/img6.jpg"
+          ],
+          "edition":[
+            {
+              "type":"32G",
+              "stock": "100",
+              "price": "5088.00"
+            },
+            {
+              "type":"64G",
+              "stock": "100",
+              "price": "6088.00"
+            },
+            {
+              "type":"128G",
+              "stock": "100",
+              "price": "7088.00"
+            }
+          ]
+        },
+        "a0001-02":{
+          "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (香槟金)",
+          "imgArr":[
+            "img/product/a0001/2/img1.jpg",
+            "img/product/a0001/2/img2.jpg",
+            "img/product/a0001/2/img3.jpg",
+            "img/product/a0001/2/img4.jpg",
+            "img/product/a0001/2/img5.jpg",
+            "img/product/a0001/2/img6.jpg",
+            "img/product/a0001/2/img7.jpg",
+            "img/product/a0001/2/img8.jpg"
+          ],
+          "edition":[
+            {
+              "type":"32G",
+              "stock": "100",
+              "price": "5088.00"
+            },
+            {
+              "type":"64G",
+              "stock": "100",
+              "price": "6088.00"
+            },
+            {
+              "type":"128G",
+              "stock": "100",
+              "price": "7088.00"
+            }
+          ]
+        },
+        "a0001-03":{
+          "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (玫瑰金)",
+          "imgArr":[
+            "img/product/a0001/3/img1.jpg",
+            "img/product/a0001/3/img2.jpg",
+            "img/product/a0001/3/img3.jpg",
+            "img/product/a0001/3/img4.jpg",
+            "img/product/a0001/3/img5.jpg"
+          ],
+          "edition":[
+            {
+              "type":"32G",
+              "stock": "100",
+              "price": "5088.00"
+            },
+            {
+              "type":"64G",
+              "stock": "100",
+              "price": "6088.00"
+            },
+            {
+              "type":"128G",
+              "stock": "100",
+              "price": "7088.00"
+            }
+          ]
         }
-      },
-      "02":{
-        "title":"香槟金",
-        "imgArr":[
-          "img/product/a0001/2/img1.jpg",
-          "img/product/a0001/2/img2.jpg",
-          "img/product/a0001/2/img3.jpg",
-          "img/product/a0001/2/img4.jpg",
-          "img/product/a0001/2/img5.jpg",
-          "img/product/a0001/2/img6.jpg",
-          "img/product/a0001/2/img7.jpg",
-          "img/product/a0001/2/img8.jpg"
-        ],
-        "edition":{
-          "32G":{
-            "stock": "50",
-            "price": "5088"
-          },
-          "64G":{
-            "stock": "50",
-            "price": "6088"
-          },
-          "128G":{
-            "stock": "50",
-            "price": "7088"
-          }
+      }
+    },
+    "a000-2":{
+      "subtitle":"8月热卖iPhone！",
+      "detailImgArr":[
+        "img/product/a0002/show/a1.jpg",
+        "img/product/a0002/show/a2.jpg",
+        "img/product/a0002/show/a3.jpg"
+      ],
+      "type": {
+        "a0002-01": {
+          "title": "Apple iPhone SE (A1723) 金色 移动联通电信4G手机",
+          "imgArr": [
+            "img/product/a0002/1/c1.png",
+            "img/product/a0002/1/c2.png"
+          ],
+          "edition": [
+            {
+              "type": "16G",
+              "stock": "100",
+              "price": "2099.00"
+            },
+            {
+              "type": "64G",
+              "stock": "100",
+              "price": "3399.00"
+            }
+          ]
+        },
+        "a0002-02":{
+          "title": "Apple iPhone SE (A1723) 银色 移动联通电信4G手机",
+          "imgArr": [
+            "img/product/a0002/2/c1.png",
+            "img/product/a0002/2/c2.png"
+          ],
+          "edition": [
+            {
+              "type": "16G",
+              "stock": "100",
+              "price": "2099.00"
+            },
+            {
+              "type": "64G",
+              "stock": "100",
+              "price": "3399.00"
+            }
+          ]
+        },
+        "a0002-03":{
+          "title": "Apple iPhone SE (A1723) 16G 深空灰 移动联通电信4G手机",
+          "imgArr": [
+            "img/product/a0002/3/c1.png",
+            "img/product/a0002/3/c2.png"
+          ],
+          "edition": [
+            {
+              "type": "16G",
+              "stock": "100",
+              "price": "2099.00"
+            },
+            {
+              "type": "64G",
+              "stock": "100",
+              "price": "3399.00"
+            }
+          ]
+        },
+        "a0002-04":{
+          "title": "Apple iPhone SE (A1723) 玫瑰金 移动联通电信4G手机",
+          "imgArr": [
+            "img/product/a0002/1/c1.png",
+            "img/product/a0002/1/c2.png"
+          ],
+          "edition": [
+            {
+              "type": "16G",
+              "stock": "100",
+              "price": "2099.00"
+            },
+            {
+              "type": "64G",
+              "stock": "100",
+              "price": "3399.00"
+            }
+          ]
         }
-      },
-      "03":{
-        "title":"玫瑰金",
-        "imgArr":[
-          "img/product/a0001/3/img1.jpg",
-          "img/product/a0001/3/img2.jpg",
-          "img/product/a0001/3/img3.jpg",
-          "img/product/a0001/3/img4.jpg",
-          "img/product/a0001/3/img5.jpg"
-        ],
-        "edition":{
-          "32G":{
-            "stock": "10",
-            "price": "5088"
-          },
-          "64G":{
-            "stock": "10",
-            "price": "6088"
-          },
-          "128G":{
-            "stock": "10",
-            "price": "7088"
-          }
+      }
+    },
+    "a000-3":{
+      "subtitle":"2017新款MacBook Pro登场！第七代Intel i5处理器加持，配备Multi-Touch Bar！",
+      "detailImgArr":[
+        "img/product/a0003/show/c1.jpg",
+        "img/product/a0003/show/c2.jpg",
+        "img/product/a0003/show/c3.jpg",
+        "img/product/a0003/show/c4.jpg"
+      ],
+      "type": {
+        "a0003-01": {
+          "title": "Apple MacBook Pro 13.3英寸笔记本电脑 深空灰色",
+          "imgArr": [
+            "img/product/a0003/1/c1.jpg",
+            "img/product/a0003/1/c2.jpg",
+            "img/product/a0003/1/c3.jpg"
+          ],
+          "edition": [
+            {
+              "type": "【2017新】13.3英寸Touch Bar",
+              "stock": "100",
+              "price": "14288.00"
+            },
+            {
+              "type": "【2017新】13.3英寸",
+              "stock": "100",
+              "price": "11488.00"
+            }
+          ]
+        },
+        "a0003-02":{
+          "title": "Apple MacBook Pro 13.3英寸笔记本电脑 银色",
+          "imgArr": [
+            "img/product/a0003/2/c1.jpg",
+            "img/product/a0003/2/c2.jpg",
+            "img/product/a0003/2/c3.jpg"
+          ],
+          "edition": [
+            {
+              "type": "【2017新】13.3英寸Touch Bar",
+              "stock": "100",
+              "price": "14288.00"
+            },
+            {
+              "type": "【2017新】13.3英寸",
+              "stock": "100",
+              "price": "11488.00"
+            }
+          ]
         }
       }
     }
   }
-
 }
