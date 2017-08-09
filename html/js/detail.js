@@ -33,6 +33,8 @@ define(function (require,exports,module) {
         let $selectins2 = $("#select-ins2");
         let idArr= common.getQueryString("pid").split("-");
 
+
+        common.recentLook();
         //主数据加载--color加载
         $.post("json/productdetail.json",function (data) {
             let html = "";
@@ -40,7 +42,7 @@ define(function (require,exports,module) {
             $pbr.find("h5").html(spdata["subtitle"]);
             for(let i in spdata["detailImgArr"]){
                 html +=  "<img src='"+spdata["detailImgArr"][i]+"'>";
-            };
+            }
             $(".main-content").html(html);
             //-----color加载-----
             if(spdata["type"].length >1){
@@ -52,11 +54,13 @@ define(function (require,exports,module) {
                 $selectins1.append(html);
                 $(".select-bar.color .type-item").click(function () {
                     $(this).addClass("active").siblings().removeClass("active");
+                    setRecentP($(this).attr("data-id"));
                     getDetail($(this).attr("data-id"));
                 }).filter(":nth-child(2)").click();
 
-            };
+            }
             getDetail(idArr[0] + "-" + idArr[1]);
+            setRecentP(idArr[0] + "-" + idArr[1]);
             zoomInit();
             let numinp = $("#numipt");
             $(".buy-t").find(".jian").click(function () {
@@ -104,6 +108,23 @@ define(function (require,exports,module) {
             });
         }
 
+        function setRecentP(pid){
+            let ck = Cookies.get("rensentItem");
+            if(ck){
+                let cArr = JSON.parse(ck);
+                for(let i in cArr){
+                    if(cArr[i] == pid){
+                        cArr.splice(i,1);
+                        break;
+                    }
+                }
+                cArr.unshift(pid);
+                Cookies.set("rensentItem",cArr);
+            }else{
+                Cookies.set("rensentItem",[pid]);
+            }
+        }
+
         //辅数据加载 ---edition
         function getDetail(pid){
             $.post("json/productlist.json",function (data) {
@@ -146,8 +167,41 @@ define(function (require,exports,module) {
             $(".main-content").hide();
             $(".main-msg").show();
         });
+
         $.get("json/comment.json",function (data) {
-            
+            let lv3num = data["lv3"]["list"].length;
+            let lv2num = data["lv2"]["list"].length;
+            let lv1num = data["lv1"]["list"].length;
+            let sum = lv3num + lv2num + lv1num;
+
+            let lcl3 = Math.round((lv3num/sum)*100);
+            let lcl2 = Math.round((lv2num/sum)*100);
+            let lcl1 = Math.round((lv1num/sum)*100);
+
+            $(".msg-nav li").click(function () {
+               $(this).addClass("active").siblings().removeClass("active");
+               console.log($(this).index());
+                $(".msg_list").eq($(this).index()).show().siblings(".msg_list").hide();
+            }).eq(0).find("span").html(lv3num)
+                .end().end().eq(1).find("span").html(lv2num)
+                .end().end().eq(2).find("span").html(lv1num);
+            $(".p2 .p2-item").eq(0).find(".process-bar")
+                .css({"background":"linear-gradient(to right,#3F85D0 "+lcl3+"%, #B6B5B5 "+lcl3+"%)"})
+                .end().find("span").html(lcl3+"%");
+            $(".p2 .p2-item").eq(1).find(".process-bar")
+                .css({"background":"linear-gradient(to right,#3F85D0 "+lcl2+"%, #B6B5B5 "+lcl2+"%)"})
+                .end().find("span").html(lcl2+"%");
+            $(".p2 .p2-item").eq(2).find(".process-bar")
+                .css({"background":"linear-gradient(to right,#3F85D0 "+lcl1+"%, #B6B5B5 "+lcl1+"%)"})
+                .end().find("span").html(lcl1+"%");
+            $(".p1 span").html(lcl3+"%");
+
+            let html = template("commontTemp",data["lv3"]);
+            $(".msg_list.lv3").html(html).show();
+            html = template("commontTemp",data["lv2"]);
+            $(".msg_list.lv2").html(html);
+            html = template("commontTemp",data["lv1"]);
+            $(".msg_list.lv1").html(html);
         });
     }
 

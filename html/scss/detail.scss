@@ -174,7 +174,6 @@ section{
                             display: inline-block;
                             width: 230px;
                             height: 15px;
-                            background: #908f8f;
                             margin-top: 10px;
                             border-radius: 5px;
                         }
@@ -385,6 +384,7 @@ section{
         }
         .msg_list{
             padding: 0 30px 30px 30px;
+            display: none;
             li{
                 padding: 25px 0;
                 border-bottom: $border1;

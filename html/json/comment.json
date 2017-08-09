@@ -1,164 +1,170 @@
 {
-  "lv3":[
-    {
-      "name":"user1",
-      "star":"5",
-      "content":"好评A",
-      "time":"2017-8-9 15:00"
-    },{
-      "name":"user2",
-      "star":"5",
-      "content":"好评B",
-      "time":"2017-1-9 15:00"
-    },{
-      "name":"user3",
-      "star":"5",
-      "content":"好评C",
-      "time":"2017-3-29 15:00"
-    },{
-      "name":"user4",
-      "star":"5",
-      "content":"好评D",
-      "time":"2017-5-9 15:00"
-    },{
-      "name":"user5",
-      "star":"5",
-      "content":"好评E",
-      "time":"2017-12-9 15:00"
-    },
-    {
-      "name":"user1",
-      "star":"5",
-      "content":"好评A",
-      "time":"2017-8-9 15:00"
-    },{
-      "name":"user2",
-      "star":"5",
-      "content":"好评B",
-      "time":"2017-1-9 15:00"
-    },{
-      "name":"user3",
-      "star":"5",
-      "content":"好评C",
-      "time":"2017-3-29 15:00"
-    },{
-      "name":"user4",
-      "star":"5",
-      "content":"好评D",
-      "time":"2017-5-9 15:00"
-    },{
-      "name":"user5",
-      "star":"5",
-      "content":"好评E",
-      "time":"2017-12-9 15:00"
-    }
-  ],
-  "lv2":[
-    {
-      "name":"user1",
-      "star":"2",
-      "content":"中评",
-      "time":"2017-8-9 15:00"
-    },{
-      "name":"user2",
-      "star":"3",
-      "content":"中评",
-      "time":"2017-1-9 15:00"
-    },{
-      "name":"user3",
-      "star":"4",
-      "content":"中评",
-      "time":"2017-3-29 15:00"
-    },{
-      "name":"user4",
-      "star":"4",
-      "content":"中评",
-      "time":"2017-5-9 15:00"
-    },{
-      "name":"user5",
-      "star":"2",
-      "content":"中评",
-      "time":"2017-12-9 15:00"
-    },
-    {
-      "name":"user1",
-      "star":"3",
-      "content":"中评",
-      "time":"2017-8-9 15:00"
-    },{
-      "name":"user2",
-      "star":"2",
-      "content":"中评",
-      "time":"2017-1-9 15:00"
-    },{
-      "name":"user3",
-      "star":"3",
-      "content":"中评",
-      "time":"2017-3-29 15:00"
-    },{
-      "name":"user4",
-      "star":"4",
-      "content":"中评",
-      "time":"2017-5-9 15:00"
-    },{
-      "name":"user5",
-      "star":"2",
-      "content":"中评",
-      "time":"2017-12-9 15:00"
-    },
-    {
-      "name":"user1",
-      "star":"3",
-      "content":"中评",
-      "time":"2017-8-9 15:00"
-    },{
-      "name":"user2",
-      "star":"4",
-      "content":"中评",
-      "time":"2017-1-9 15:00"
-    },{
-      "name":"user3",
-      "star":"4",
-      "content":"中评",
-      "time":"2017-3-29 15:00"
-    },{
-      "name":"user4",
-      "star":"1",
-      "content":"中评",
-      "time":"2017-5-9 15:00"
-    },{
-      "name":"user5",
-      "star":"2",
-      "content":"中评",
-      "time":"2017-12-9 15:00"
-    }
-  ],
-  "lv1":[
-    {
-      "name":"user1",
-      "star":"1",
-      "content":"差评",
-      "time":"2017-8-9 15:00"
-    },{
-      "name":"user2",
-      "star":"1",
-      "content":"差评",
-      "time":"2017-1-9 15:00"
-    },{
-      "name":"user3",
-      "star":"1",
-      "content":"差评",
-      "time":"2017-3-29 15:00"
-    },{
-      "name":"user4",
-      "star":"1",
-      "content":"差评",
-      "time":"2017-5-9 15:00"
-    },{
-      "name":"user5",
-      "star":"1",
-      "content":"差评",
-      "time":"2017-12-9 15:00"
-    }
-  ]
+  "lv3":{
+    "list":[
+      {
+        "name":"user1",
+        "star":[{},{},{},{},{}],
+        "content":"好评A",
+        "time":"2017-8-9 15:00"
+      },{
+        "name":"user2",
+        "star":[{},{},{},{},{}],
+        "content":"好评B",
+        "time":"2017-1-9 15:00"
+      },{
+        "name":"user3",
+        "star":[{},{},{},{},{}],
+        "content":"好评C",
+        "time":"2017-3-29 15:00"
+      },{
+        "name":"user4",
+        "star":[{},{},{},{},{}],
+        "content":"好评D",
+        "time":"2017-5-9 15:00"
+      },{
+        "name":"user5",
+        "star":[{},{},{},{},{}],
+        "content":"好评E",
+        "time":"2017-12-9 15:00"
+      },
+      {
+        "name":"user1",
+        "star":[{},{},{},{},{}],
+        "content":"好评A",
+        "time":"2017-8-9 15:00"
+      },{
+        "name":"user2",
+        "star":[{},{},{},{},{}],
+        "content":"好评B",
+        "time":"2017-1-9 15:00"
+      },{
+        "name":"user3",
+        "star":[{},{},{},{},{}],
+        "content":"好评C",
+        "time":"2017-3-29 15:00"
+      },{
+        "name":"user4",
+        "star":[{},{},{},{},{}],
+        "content":"好评D",
+        "time":"2017-5-9 15:00"
+      },{
+        "name":"user5",
+        "star":[{},{},{},{},{}],
+        "content":"好评E",
+        "time":"2017-12-9 15:00"
+      }
+    ]
+  },
+  "lv2":{
+    "list":[
+      {
+        "name":"user1",
+        "star":[{},{}],
+        "content":"中评",
+        "time":"2017-8-9 15:00"
+      },{
+        "name":"user2",
+        "star":[{},{},{}],
+        "content":"中评",
+        "time":"2017-1-9 15:00"
+      },{
+        "name":"user3",
+        "star":[{},{}],
+        "content":"中评",
+        "time":"2017-3-29 15:00"
+      },{
+        "name":"user4",
+        "star":[{},{},{},{}],
+        "content":"中评",
+        "time":"2017-5-9 15:00"
+      },{
+        "name":"user5",
+        "star":[{},{}],
+        "content":"中评",
+        "time":"2017-12-9 15:00"
+      },
+      {
+        "name":"user1",
+        "star":[{},{},{}],
+        "content":"中评",
+        "time":"2017-8-9 15:00"
+      },{
+        "name":"user2",
+        "star":[{},{}],
+        "content":"中评",
+        "time":"2017-1-9 15:00"
+      },{
+        "name":"user3",
+        "star":[{},{},{}],
+        "content":"中评",
+        "time":"2017-3-29 15:00"
+      },{
+        "name":"user4",
+        "star":[{},{},{},{}],
+        "content":"中评",
+        "time":"2017-5-9 15:00"
+      },{
+        "name":"user5",
+        "star":[{},{}],
+        "content":"中评",
+        "time":"2017-12-9 15:00"
+      },
+      {
+        "name":"user1",
+        "star":[{},{},{}],
+        "content":"中评",
+        "time":"2017-8-9 15:00"
+      },{
+        "name":"user2",
+        "star":[{},{},{},{}],
+        "content":"中评",
+        "time":"2017-1-9 15:00"
+      },{
+        "name":"user3",
+        "star":[{},{},{},{}],
+        "content":"中评",
+        "time":"2017-3-29 15:00"
+      },{
+        "name":"user4",
+        "star":[{}],
+        "content":"中评",
+        "time":"2017-5-9 15:00"
+      },{
+        "name":"user5",
+        "star":[{},{}],
+        "content":"中评",
+        "time":"2017-12-9 15:00"
+      }
+    ]
+  },
+  "lv1":{
+    "list":[
+      {
+        "name":"user1",
+        "star":[{}],
+        "content":"差评",
+        "time":"2017-8-9 15:00"
+      },{
+        "name":"user2",
+        "star":[{}],
+        "content":"差评",
+        "time":"2017-1-9 15:00"
+      },{
+        "name":"user3",
+        "star":[{}],
+        "content":"差评",
+        "time":"2017-3-29 15:00"
+      },{
+        "name":"user4",
+        "star":[{}],
+        "content":"差评",
+        "time":"2017-5-9 15:00"
+      },{
+        "name":"user5",
+        "star":[{}],
+        "content":"差评",
+        "time":"2017-12-9 15:00"
+      }
+    ]
+  }
 }

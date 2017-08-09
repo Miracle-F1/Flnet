@@ -42,22 +42,22 @@
                 </div>
             </div>
             <div class="pbr-1 clear">
-                <div class="p1">好评度：<br><span>100%</span></div>
+                <div class="p1">好评度：<br><span></span></div>
                 <div class="p2">
                     <div class="p2-item">
                        好评：
                        <div class="process-bar"></div>
-                       <span class="lv1">100%</span>
+                       <span class="lv3"></span>
                     </div>
                     <div class="p2-item">
                        中评：
                        <div class="process-bar"></div>
-                       <span class="lv1">100%</span>
+                       <span class="lv2"></span>
                     </div>
                     <div class="p2-item">
                        差评：
                        <div class="process-bar"></div>
-                       <span class="lv1">100%</span>
+                       <span class="lv1"></span>
                     </div>
                 </div>
             </div>
@@ -125,151 +125,39 @@
             <div class="main-msg">
                 <div class="msg-t">商品评价</div>
                 <ul class="msg-nav">
-                    <li class="active">全部(<span>100</span>)</li>
-                    <li>好评(<span>100</span>)</li>
-                    <li>中评(<span>100</span>)</li>
-                    <li>差评(<span>100</span>)</li>
+                    <li class="active">好评(<span></span>)</li>
+                    <li>中评(<span></span>)</li>
+                    <li>差评(<span></span>)</li>
                 </ul>
-                <ul class="msg_list">
-                   <li class="clear">
-                       <div class="li-l">
+                <ul class="msg_list lv3"></ul>
+                <ul class="msg_list lv2"></ul>
+                <ul class="msg_list lv1"></ul>
+
+                <script id="commontTemp" type="text/html">
+                    {{each list as val key}}
+                    <li class="clear">
+                        <div class="li-l">
                             <img src="img/hee.jpg">
-                           <p>布洛妮娅</p>
-                       </div>
-                       <div class="li-r">
-                           <div class="li-rt">
-                               <div class="rt-l">
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                               </div>
-                               <div class="rt-r">
-                                   2017-8-4 16:27
-                               </div>
-                           </div>
-                           <div class="li-rb">
-                               东西不错，值得推荐!!!
-                           </div>
-                       </div>
-                   </li>
-                   <li class="clear">
-                       <div class="li-l">
-                            <img src="img/hee.jpg">
-                           <p>布洛妮娅</p>
-                       </div>
-                       <div class="li-r">
-                           <div class="li-rt">
-                               <div class="rt-l">
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                               </div>
-                               <div class="rt-r">
-                                   2017-8-4 16:27
-                               </div>
-                           </div>
-                           <div class="li-rb">
-                               东西不错，值得推荐!!!
-                           </div>
-                       </div>
-                   </li>
-                   <li class="clear">
-                       <div class="li-l">
-                            <img src="img/hee.jpg">
-                           <p>布洛妮娅</p>
-                       </div>
-                       <div class="li-r">
-                           <div class="li-rt">
-                               <div class="rt-l">
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                               </div>
-                               <div class="rt-r">
-                                   2017-8-4 16:27
-                               </div>
-                           </div>
-                           <div class="li-rb">
-                               东西不错，值得推荐!!!
-                           </div>
-                       </div>
-                   </li>
-                   <li class="clear">
-                       <div class="li-l">
-                            <img src="img/hee.jpg">
-                           <p>布洛妮娅</p>
-                       </div>
-                       <div class="li-r">
-                           <div class="li-rt">
-                               <div class="rt-l">
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                               </div>
-                               <div class="rt-r">
-                                   2017-8-4 16:27
-                               </div>
-                           </div>
-                           <div class="li-rb">
-                               东西不错，值得推荐!!!
-                           </div>
-                       </div>
-                   </li>
-                   <li class="clear">
-                       <div class="li-l">
-                            <img src="img/hee.jpg">
-                           <p>布洛妮娅</p>
-                       </div>
-                       <div class="li-r">
-                           <div class="li-rt">
-                               <div class="rt-l">
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                               </div>
-                               <div class="rt-r">
-                                   2017-8-4 16:27
-                               </div>
-                           </div>
-                           <div class="li-rb">
-                               东西不错，值得推荐!!!
-                           </div>
-                       </div>
-                   </li>
-                   <li class="clear">
-                       <div class="li-l">
-                            <img src="img/hee.jpg">
-                           <p>布洛妮娅</p>
-                       </div>
-                       <div class="li-r">
-                           <div class="li-rt">
-                               <div class="rt-l">
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                                   <i class="iconfont">&#xe611;</i>
-                               </div>
-                               <div class="rt-r">
-                                   2017-8-4 16:27
-                               </div>
-                           </div>
-                           <div class="li-rb">
-                               东西不错，值得推荐!!!
-                           </div>
-                       </div>
-                   </li>
-                </ul>
+                            <p>{{val["name"]}}</p>
+                        </div>
+                        <div class="li-r">
+                            <div class="li-rt">
+                                <div class="rt-l">
+                                    {{each val["star"] as val key}}
+                                        <i class="iconfont">&#xe611;</i>
+                                    {{/each}}
+                                </div>
+                                <div class="rt-r">
+                                    {{val["time"]}}
+                                </div>
+                            </div>
+                            <div class="li-rb">
+                                {{val["content"]}}
+                            </div>
+                        </div>
+                    </li>
+                    {{/each}}
+                </script>
             </div>
         </div>
     </div>

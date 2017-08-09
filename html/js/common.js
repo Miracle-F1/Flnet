@@ -4,6 +4,7 @@
 define(function (require,exports,module) {
     let jQuery= require("lib/jQuery-1.11.0");
     let template = require("lib/template");
+    let jscookie = require("lib/js-cookie");
 
         //对外接口
         function headerLoadA(){
@@ -37,6 +38,32 @@ define(function (require,exports,module) {
             return null;
         }
 
+        function recentLook(){
+            let ck = Cookies.get("rensentItem");
+            if(ck){
+                let cArr = JSON.parse(ck);
+                for(let i in cArr){
+                    //console.log(cArr[i]);
+                    console.log(getProductImgID("a0001-01"));
+                }
+            }
+        }
+
+        function getProductImgID(pid){
+            $.get("json/productlist.json",function (data) {
+                for(let i in data["list"]){
+                    //console.log(data["list"][i]["imgArr"][0]);
+                    console.log(i);
+
+                    if(i == pid){
+
+                        let c = {"title":data["list"][i]["title"],"img":data["list"][i]["imgArr"][0]};
+                        //console.log(c);
+                        //return c;
+                    }
+                }
+            });
+        }
 
         //-----------------------------内部函数-----------------------------
 
@@ -114,7 +141,8 @@ define(function (require,exports,module) {
             bottomLoadA:bottomLoadA,
             bottomLoadB:bottomLoadB,
             pageInit:pageInit,
-            getQueryString:getQueryString
+            getQueryString:getQueryString,
+            recentLook:recentLook
         }
     }
 );

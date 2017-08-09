@@ -142,7 +142,6 @@ section {
               display: inline-block;
               width: 230px;
               height: 15px;
-              background: #908f8f;
               margin-top: 10px;
               border-radius: 5px; }
       section .product_box .pb-r .select-bar {
@@ -303,7 +302,8 @@ section {
             color: #1f77d0;
             border-color: #1f77d0; }
     section .main-show .msg_list {
-      padding: 0 30px 30px 30px; }
+      padding: 0 30px 30px 30px;
+      display: none; }
       section .main-show .msg_list li {
         padding: 25px 0;
         border-bottom: 1px solid #DDD; }
