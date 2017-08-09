@@ -1,7 +1,2198 @@
-{"list":{
+﻿{"list":{
   "a0001-01":{
-    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机(磨砂黑)"
+    "tag":"磨砂黑",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (磨砂黑)",
+    "imgArr":[
+      "img/product/a0001/1/img1.jpg",
+      "img/product/a0001/1/img2.jpg",
+      "img/product/a0001/1/img3.jpg",
+      "img/product/a0001/1/img4.jpg",
+      "img/product/a0001/1/img5.jpg",
+      "img/product/a0001/1/img6.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-02":{
+    "tag":"香槟金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (香槟金)",
+    "imgArr":[
+      "img/product/a0001/2/img1.jpg",
+      "img/product/a0001/2/img2.jpg",
+      "img/product/a0001/2/img3.jpg",
+      "img/product/a0001/2/img4.jpg",
+      "img/product/a0001/2/img5.jpg",
+      "img/product/a0001/2/img6.jpg",
+      "img/product/a0001/2/img7.jpg",
+      "img/product/a0001/2/img8.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-03":{
+    "tag":"玫瑰金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (玫瑰金)",
+    "imgArr":[
+      "img/product/a0001/3/img1.jpg",
+      "img/product/a0001/3/img2.jpg",
+      "img/product/a0001/3/img3.jpg",
+      "img/product/a0001/3/img4.jpg",
+      "img/product/a0001/3/img5.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0002-01": {
+    "tag":"金色",
+    "title": "Apple iPhone SE (A1723) 金色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-02":{
+    "tag":"银色",
+    "title": "Apple iPhone SE (A1723) 银色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/2/c1.png",
+      "img/product/a0002/2/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-03":{
+    "tag":"深空灰",
+    "title": "Apple iPhone SE (A1723) 16G 深空灰 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/3/c1.png",
+      "img/product/a0002/3/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-04":{
+    "tag":"玫瑰金",
+    "title": "Apple iPhone SE (A1723) 玫瑰金 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0003-01": {
+    "tag":"深空灰色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 深空灰色",
+    "imgArr": [
+      "img/product/a0003/1/c1.jpg",
+      "img/product/a0003/1/c2.jpg",
+      "img/product/a0003/1/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0003-02":{
+    "tag":"银色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 银色",
+    "imgArr": [
+      "img/product/a0003/2/c1.jpg",
+      "img/product/a0003/2/c2.jpg",
+      "img/product/a0003/2/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0004-01": {
+    "title": "戴尔DELL灵越游匣15PR-5745B 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0004/1/c0.jpg",
+      "img/product/a0004/1/c1.jpg",
+      "img/product/a0004/1/c2.jpg",
+      "img/product/a0004/1/c3.jpg",
+      "img/product/a0004/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "精锐版 i7-6700HQ",
+        "stock": "100",
+        "price": "6799.00"
+      },
+      {
+        "type": "宗师版 i5-7300HQ",
+        "stock": "100",
+        "price": "5799.00"
+      }
+    ]
+  },
+  "a0005-01": {
+    "title": "戴尔DELL成就开挂版5568R-1625S 15.6英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0005/1/c1.jpg",
+      "img/product/a0005/1/c2.jpg",
+      "img/product/a0005/1/c3.jpg",
+      "img/product/a0005/1/c4.jpg",
+      "img/product/a0005/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "开挂版 15.6英寸 i5 4G 128G+1T",
+        "stock": "100",
+        "price": "5599.00"
+      },
+      {
+        "type": "燃7000 14英寸 i5 8G 256G FHD金",
+        "stock": "100",
+        "price": "5099.00"
+      }
+    ]
+  },
+  "a0006-01": {
+    "title": "华硕(ASUS) 飞行堡垒尊享版二代FX53VD 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0006/1/c1.jpg",
+      "img/product/a0006/1/c2.jpg",
+      "img/product/a0006/1/c3.jpg",
+      "img/product/a0006/1/c4.jpg",
+      "img/product/a0006/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【1050-4G显卡】i7/8G/固态双盘",
+        "stock": "100",
+        "price": "6499.00"
+      },
+      {
+        "type": "【1050-4G显卡】i5/8G/1T/红黑",
+        "stock": "100",
+        "price": "5299.00"
+      }
+    ]
+  },
+  "a0007-01": {
+    "title": "ThinkPad X270（00CD）12.5英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0007/1/c1.jpg",
+      "img/product/a0007/1/c2.jpg",
+      "img/product/a0007/1/c3.jpg",
+      "img/product/a0007/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【20mm双电双硬】i5爆款",
+        "stock": "100",
+        "price": "7999.00"
+      },
+      {
+        "type": "【20mm单硬盘】i7殿堂版",
+        "stock": "100",
+        "price": "15999.00"
+      }
+    ]
+  },
+  "a0008-01": {
+    "tag":"谜夜黑",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 谜夜黑",
+    "imgArr": [
+      "img/product/a0008/1/c1.jpg",
+      "img/product/a0008/1/c2.jpg",
+      "img/product/a0008/1/c3.jpg",
+      "img/product/a0008/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-02": {
+    "tag":"绮梦金",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 绮梦金",
+    "imgArr": [
+      "img/product/a0008/2/c1.jpg",
+      "img/product/a0008/2/c2.jpg",
+      "img/product/a0008/2/c3.jpg",
+      "img/product/a0008/2/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-03": {
+    "tag":"雾屿蓝",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 雾屿蓝",
+    "imgArr": [
+      "img/product/a0008/3/c1.jpg",
+      "img/product/a0008/3/c2.jpg",
+      "img/product/a0008/3/c3.jpg",
+      "img/product/a0008/3/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-04": {
+    "tag":"烟晶灰",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 烟晶灰",
+    "imgArr": [
+      "img/product/a0008/4/c1.jpg",
+      "img/product/a0008/4/c2.jpg",
+      "img/product/a0008/4/c3.jpg",
+      "img/product/a0008/4/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
 
+  "a0001-01-a":{
+    "tag":"磨砂黑",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (磨砂黑)",
+    "imgArr":[
+      "img/product/a0001/1/img1.jpg",
+      "img/product/a0001/1/img2.jpg",
+      "img/product/a0001/1/img3.jpg",
+      "img/product/a0001/1/img4.jpg",
+      "img/product/a0001/1/img5.jpg",
+      "img/product/a0001/1/img6.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-02-a":{
+    "tag":"香槟金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (香槟金)",
+    "imgArr":[
+      "img/product/a0001/2/img1.jpg",
+      "img/product/a0001/2/img2.jpg",
+      "img/product/a0001/2/img3.jpg",
+      "img/product/a0001/2/img4.jpg",
+      "img/product/a0001/2/img5.jpg",
+      "img/product/a0001/2/img6.jpg",
+      "img/product/a0001/2/img7.jpg",
+      "img/product/a0001/2/img8.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-03-a":{
+    "tag":"玫瑰金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (玫瑰金)",
+    "imgArr":[
+      "img/product/a0001/3/img1.jpg",
+      "img/product/a0001/3/img2.jpg",
+      "img/product/a0001/3/img3.jpg",
+      "img/product/a0001/3/img4.jpg",
+      "img/product/a0001/3/img5.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0002-01-a": {
+    "tag":"金色",
+    "title": "Apple iPhone SE (A1723) 金色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-02-a":{
+    "tag":"银色",
+    "title": "Apple iPhone SE (A1723) 银色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/2/c1.png",
+      "img/product/a0002/2/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-03-a":{
+    "tag":"深空灰",
+    "title": "Apple iPhone SE (A1723) 16G 深空灰 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/3/c1.png",
+      "img/product/a0002/3/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-04-a":{
+    "tag":"玫瑰金",
+    "title": "Apple iPhone SE (A1723) 玫瑰金 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0003-01-a": {
+    "tag":"深空灰色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 深空灰色",
+    "imgArr": [
+      "img/product/a0003/1/c1.jpg",
+      "img/product/a0003/1/c2.jpg",
+      "img/product/a0003/1/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0003-02-a":{
+    "tag":"银色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 银色",
+    "imgArr": [
+      "img/product/a0003/2/c1.jpg",
+      "img/product/a0003/2/c2.jpg",
+      "img/product/a0003/2/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0004-01-a": {
+    "title": "戴尔DELL灵越游匣15PR-5745B 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0004/1/c0.jpg",
+      "img/product/a0004/1/c1.jpg",
+      "img/product/a0004/1/c2.jpg",
+      "img/product/a0004/1/c3.jpg",
+      "img/product/a0004/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "精锐版 i7-6700HQ",
+        "stock": "100",
+        "price": "6799.00"
+      },
+      {
+        "type": "宗师版 i5-7300HQ",
+        "stock": "100",
+        "price": "5799.00"
+      }
+    ]
+  },
+  "a0005-01-a": {
+    "title": "戴尔DELL成就开挂版5568R-1625S 15.6英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0005/1/c1.jpg",
+      "img/product/a0005/1/c2.jpg",
+      "img/product/a0005/1/c3.jpg",
+      "img/product/a0005/1/c4.jpg",
+      "img/product/a0005/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "开挂版 15.6英寸 i5 4G 128G+1T",
+        "stock": "100",
+        "price": "5599.00"
+      },
+      {
+        "type": "燃7000 14英寸 i5 8G 256G FHD金",
+        "stock": "100",
+        "price": "5099.00"
+      }
+    ]
+  },
+  "a0006-01-a": {
+    "title": "华硕(ASUS) 飞行堡垒尊享版二代FX53VD 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0006/1/c1.jpg",
+      "img/product/a0006/1/c2.jpg",
+      "img/product/a0006/1/c3.jpg",
+      "img/product/a0006/1/c4.jpg",
+      "img/product/a0006/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【1050-4G显卡】i7/8G/固态双盘",
+        "stock": "100",
+        "price": "6499.00"
+      },
+      {
+        "type": "【1050-4G显卡】i5/8G/1T/红黑",
+        "stock": "100",
+        "price": "5299.00"
+      }
+    ]
+  },
+  "a0007-01-a": {
+    "title": "ThinkPad X270（00CD）12.5英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0007/1/c1.jpg",
+      "img/product/a0007/1/c2.jpg",
+      "img/product/a0007/1/c3.jpg",
+      "img/product/a0007/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【20mm双电双硬】i5爆款",
+        "stock": "100",
+        "price": "7999.00"
+      },
+      {
+        "type": "【20mm单硬盘】i7殿堂版",
+        "stock": "100",
+        "price": "15999.00"
+      }
+    ]
+  },
+  "a0008-01-a": {
+    "tag":"谜夜黑",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 谜夜黑",
+    "imgArr": [
+      "img/product/a0008/1/c1.jpg",
+      "img/product/a0008/1/c2.jpg",
+      "img/product/a0008/1/c3.jpg",
+      "img/product/a0008/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-02-a": {
+    "tag":"绮梦金",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 绮梦金",
+    "imgArr": [
+      "img/product/a0008/2/c1.jpg",
+      "img/product/a0008/2/c2.jpg",
+      "img/product/a0008/2/c3.jpg",
+      "img/product/a0008/2/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-03-a": {
+    "tag":"雾屿蓝",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 雾屿蓝",
+    "imgArr": [
+      "img/product/a0008/3/c1.jpg",
+      "img/product/a0008/3/c2.jpg",
+      "img/product/a0008/3/c3.jpg",
+      "img/product/a0008/3/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-04-a": {
+    "tag":"烟晶灰",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 烟晶灰",
+    "imgArr": [
+      "img/product/a0008/4/c1.jpg",
+      "img/product/a0008/4/c2.jpg",
+      "img/product/a0008/4/c3.jpg",
+      "img/product/a0008/4/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+
+  "a0001-01-b":{
+    "tag":"磨砂黑",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (磨砂黑)",
+    "imgArr":[
+      "img/product/a0001/1/img1.jpg",
+      "img/product/a0001/1/img2.jpg",
+      "img/product/a0001/1/img3.jpg",
+      "img/product/a0001/1/img4.jpg",
+      "img/product/a0001/1/img5.jpg",
+      "img/product/a0001/1/img6.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-02-b":{
+    "tag":"香槟金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (香槟金)",
+    "imgArr":[
+      "img/product/a0001/2/img1.jpg",
+      "img/product/a0001/2/img2.jpg",
+      "img/product/a0001/2/img3.jpg",
+      "img/product/a0001/2/img4.jpg",
+      "img/product/a0001/2/img5.jpg",
+      "img/product/a0001/2/img6.jpg",
+      "img/product/a0001/2/img7.jpg",
+      "img/product/a0001/2/img8.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-03-b":{
+    "tag":"玫瑰金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (玫瑰金)",
+    "imgArr":[
+      "img/product/a0001/3/img1.jpg",
+      "img/product/a0001/3/img2.jpg",
+      "img/product/a0001/3/img3.jpg",
+      "img/product/a0001/3/img4.jpg",
+      "img/product/a0001/3/img5.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0002-01-b": {
+    "tag":"金色",
+    "title": "Apple iPhone SE (A1723) 金色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-02-b":{
+    "tag":"银色",
+    "title": "Apple iPhone SE (A1723) 银色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/2/c1.png",
+      "img/product/a0002/2/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-03-b":{
+    "tag":"深空灰",
+    "title": "Apple iPhone SE (A1723) 16G 深空灰 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/3/c1.png",
+      "img/product/a0002/3/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-04-b":{
+    "tag":"玫瑰金",
+    "title": "Apple iPhone SE (A1723) 玫瑰金 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0003-01-b": {
+    "tag":"深空灰色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 深空灰色",
+    "imgArr": [
+      "img/product/a0003/1/c1.jpg",
+      "img/product/a0003/1/c2.jpg",
+      "img/product/a0003/1/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0003-02-b":{
+    "tag":"银色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 银色",
+    "imgArr": [
+      "img/product/a0003/2/c1.jpg",
+      "img/product/a0003/2/c2.jpg",
+      "img/product/a0003/2/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0004-01-b": {
+    "title": "戴尔DELL灵越游匣15PR-5745B 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0004/1/c0.jpg",
+      "img/product/a0004/1/c1.jpg",
+      "img/product/a0004/1/c2.jpg",
+      "img/product/a0004/1/c3.jpg",
+      "img/product/a0004/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "精锐版 i7-6700HQ",
+        "stock": "100",
+        "price": "6799.00"
+      },
+      {
+        "type": "宗师版 i5-7300HQ",
+        "stock": "100",
+        "price": "5799.00"
+      }
+    ]
+  },
+  "a0005-01-b": {
+    "title": "戴尔DELL成就开挂版5568R-1625S 15.6英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0005/1/c1.jpg",
+      "img/product/a0005/1/c2.jpg",
+      "img/product/a0005/1/c3.jpg",
+      "img/product/a0005/1/c4.jpg",
+      "img/product/a0005/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "开挂版 15.6英寸 i5 4G 128G+1T",
+        "stock": "100",
+        "price": "5599.00"
+      },
+      {
+        "type": "燃7000 14英寸 i5 8G 256G FHD金",
+        "stock": "100",
+        "price": "5099.00"
+      }
+    ]
+  },
+  "a0006-01-b": {
+    "title": "华硕(ASUS) 飞行堡垒尊享版二代FX53VD 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0006/1/c1.jpg",
+      "img/product/a0006/1/c2.jpg",
+      "img/product/a0006/1/c3.jpg",
+      "img/product/a0006/1/c4.jpg",
+      "img/product/a0006/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【1050-4G显卡】i7/8G/固态双盘",
+        "stock": "100",
+        "price": "6499.00"
+      },
+      {
+        "type": "【1050-4G显卡】i5/8G/1T/红黑",
+        "stock": "100",
+        "price": "5299.00"
+      }
+    ]
+  },
+  "a0007-01-b": {
+    "title": "ThinkPad X270（00CD）12.5英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0007/1/c1.jpg",
+      "img/product/a0007/1/c2.jpg",
+      "img/product/a0007/1/c3.jpg",
+      "img/product/a0007/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【20mm双电双硬】i5爆款",
+        "stock": "100",
+        "price": "7999.00"
+      },
+      {
+        "type": "【20mm单硬盘】i7殿堂版",
+        "stock": "100",
+        "price": "15999.00"
+      }
+    ]
+  },
+  "a0008-01-b": {
+    "tag":"谜夜黑",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 谜夜黑",
+    "imgArr": [
+      "img/product/a0008/1/c1.jpg",
+      "img/product/a0008/1/c2.jpg",
+      "img/product/a0008/1/c3.jpg",
+      "img/product/a0008/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-02-b": {
+    "tag":"绮梦金",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 绮梦金",
+    "imgArr": [
+      "img/product/a0008/2/c1.jpg",
+      "img/product/a0008/2/c2.jpg",
+      "img/product/a0008/2/c3.jpg",
+      "img/product/a0008/2/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-03-b": {
+    "tag":"雾屿蓝",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 雾屿蓝",
+    "imgArr": [
+      "img/product/a0008/3/c1.jpg",
+      "img/product/a0008/3/c2.jpg",
+      "img/product/a0008/3/c3.jpg",
+      "img/product/a0008/3/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-04-b": {
+    "tag":"烟晶灰",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 烟晶灰",
+    "imgArr": [
+      "img/product/a0008/4/c1.jpg",
+      "img/product/a0008/4/c2.jpg",
+      "img/product/a0008/4/c3.jpg",
+      "img/product/a0008/4/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+
+  "a0001-01-c":{
+    "tag":"磨砂黑",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (磨砂黑)",
+    "imgArr":[
+      "img/product/a0001/1/img1.jpg",
+      "img/product/a0001/1/img2.jpg",
+      "img/product/a0001/1/img3.jpg",
+      "img/product/a0001/1/img4.jpg",
+      "img/product/a0001/1/img5.jpg",
+      "img/product/a0001/1/img6.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-02-c":{
+    "tag":"香槟金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (香槟金)",
+    "imgArr":[
+      "img/product/a0001/2/img1.jpg",
+      "img/product/a0001/2/img2.jpg",
+      "img/product/a0001/2/img3.jpg",
+      "img/product/a0001/2/img4.jpg",
+      "img/product/a0001/2/img5.jpg",
+      "img/product/a0001/2/img6.jpg",
+      "img/product/a0001/2/img7.jpg",
+      "img/product/a0001/2/img8.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-03-c":{
+    "tag":"玫瑰金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (玫瑰金)",
+    "imgArr":[
+      "img/product/a0001/3/img1.jpg",
+      "img/product/a0001/3/img2.jpg",
+      "img/product/a0001/3/img3.jpg",
+      "img/product/a0001/3/img4.jpg",
+      "img/product/a0001/3/img5.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0002-01-c": {
+    "tag":"金色",
+    "title": "Apple iPhone SE (A1723) 金色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-02-c":{
+    "tag":"银色",
+    "title": "Apple iPhone SE (A1723) 银色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/2/c1.png",
+      "img/product/a0002/2/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-03-c":{
+    "tag":"深空灰",
+    "title": "Apple iPhone SE (A1723) 16G 深空灰 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/3/c1.png",
+      "img/product/a0002/3/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-04-c":{
+    "tag":"玫瑰金",
+    "title": "Apple iPhone SE (A1723) 玫瑰金 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0003-01-c": {
+    "tag":"深空灰色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 深空灰色",
+    "imgArr": [
+      "img/product/a0003/1/c1.jpg",
+      "img/product/a0003/1/c2.jpg",
+      "img/product/a0003/1/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0003-02-c":{
+    "tag":"银色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 银色",
+    "imgArr": [
+      "img/product/a0003/2/c1.jpg",
+      "img/product/a0003/2/c2.jpg",
+      "img/product/a0003/2/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0004-01-c": {
+    "title": "戴尔DELL灵越游匣15PR-5745B 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0004/1/c0.jpg",
+      "img/product/a0004/1/c1.jpg",
+      "img/product/a0004/1/c2.jpg",
+      "img/product/a0004/1/c3.jpg",
+      "img/product/a0004/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "精锐版 i7-6700HQ",
+        "stock": "100",
+        "price": "6799.00"
+      },
+      {
+        "type": "宗师版 i5-7300HQ",
+        "stock": "100",
+        "price": "5799.00"
+      }
+    ]
+  },
+  "a0005-01-c": {
+    "title": "戴尔DELL成就开挂版5568R-1625S 15.6英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0005/1/c1.jpg",
+      "img/product/a0005/1/c2.jpg",
+      "img/product/a0005/1/c3.jpg",
+      "img/product/a0005/1/c4.jpg",
+      "img/product/a0005/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "开挂版 15.6英寸 i5 4G 128G+1T",
+        "stock": "100",
+        "price": "5599.00"
+      },
+      {
+        "type": "燃7000 14英寸 i5 8G 256G FHD金",
+        "stock": "100",
+        "price": "5099.00"
+      }
+    ]
+  },
+  "a0006-01-c": {
+    "title": "华硕(ASUS) 飞行堡垒尊享版二代FX53VD 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0006/1/c1.jpg",
+      "img/product/a0006/1/c2.jpg",
+      "img/product/a0006/1/c3.jpg",
+      "img/product/a0006/1/c4.jpg",
+      "img/product/a0006/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【1050-4G显卡】i7/8G/固态双盘",
+        "stock": "100",
+        "price": "6499.00"
+      },
+      {
+        "type": "【1050-4G显卡】i5/8G/1T/红黑",
+        "stock": "100",
+        "price": "5299.00"
+      }
+    ]
+  },
+  "a0007-01-c": {
+    "title": "ThinkPad X270（00CD）12.5英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0007/1/c1.jpg",
+      "img/product/a0007/1/c2.jpg",
+      "img/product/a0007/1/c3.jpg",
+      "img/product/a0007/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【20mm双电双硬】i5爆款",
+        "stock": "100",
+        "price": "7999.00"
+      },
+      {
+        "type": "【20mm单硬盘】i7殿堂版",
+        "stock": "100",
+        "price": "15999.00"
+      }
+    ]
+  },
+  "a0008-01-c": {
+    "tag":"谜夜黑",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 谜夜黑",
+    "imgArr": [
+      "img/product/a0008/1/c1.jpg",
+      "img/product/a0008/1/c2.jpg",
+      "img/product/a0008/1/c3.jpg",
+      "img/product/a0008/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-02-c": {
+    "tag":"绮梦金",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 绮梦金",
+    "imgArr": [
+      "img/product/a0008/2/c1.jpg",
+      "img/product/a0008/2/c2.jpg",
+      "img/product/a0008/2/c3.jpg",
+      "img/product/a0008/2/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-03-c": {
+    "tag":"雾屿蓝",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 雾屿蓝",
+    "imgArr": [
+      "img/product/a0008/3/c1.jpg",
+      "img/product/a0008/3/c2.jpg",
+      "img/product/a0008/3/c3.jpg",
+      "img/product/a0008/3/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-04-c": {
+    "tag":"烟晶灰",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 烟晶灰",
+    "imgArr": [
+      "img/product/a0008/4/c1.jpg",
+      "img/product/a0008/4/c2.jpg",
+      "img/product/a0008/4/c3.jpg",
+      "img/product/a0008/4/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+
+  "a0001-01-d":{
+    "tag":"磨砂黑",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (磨砂黑)",
+    "imgArr":[
+      "img/product/a0001/1/img1.jpg",
+      "img/product/a0001/1/img2.jpg",
+      "img/product/a0001/1/img3.jpg",
+      "img/product/a0001/1/img4.jpg",
+      "img/product/a0001/1/img5.jpg",
+      "img/product/a0001/1/img6.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-02-d":{
+    "tag":"香槟金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (香槟金)",
+    "imgArr":[
+      "img/product/a0001/2/img1.jpg",
+      "img/product/a0001/2/img2.jpg",
+      "img/product/a0001/2/img3.jpg",
+      "img/product/a0001/2/img4.jpg",
+      "img/product/a0001/2/img5.jpg",
+      "img/product/a0001/2/img6.jpg",
+      "img/product/a0001/2/img7.jpg",
+      "img/product/a0001/2/img8.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-03-d":{
+    "tag":"玫瑰金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (玫瑰金)",
+    "imgArr":[
+      "img/product/a0001/3/img1.jpg",
+      "img/product/a0001/3/img2.jpg",
+      "img/product/a0001/3/img3.jpg",
+      "img/product/a0001/3/img4.jpg",
+      "img/product/a0001/3/img5.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0002-01-d": {
+    "tag":"金色",
+    "title": "Apple iPhone SE (A1723) 金色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-02-d":{
+    "tag":"银色",
+    "title": "Apple iPhone SE (A1723) 银色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/2/c1.png",
+      "img/product/a0002/2/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-03-d":{
+    "tag":"深空灰",
+    "title": "Apple iPhone SE (A1723) 16G 深空灰 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/3/c1.png",
+      "img/product/a0002/3/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-04-d":{
+    "tag":"玫瑰金",
+    "title": "Apple iPhone SE (A1723) 玫瑰金 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0003-01-d": {
+    "tag":"深空灰色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 深空灰色",
+    "imgArr": [
+      "img/product/a0003/1/c1.jpg",
+      "img/product/a0003/1/c2.jpg",
+      "img/product/a0003/1/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0003-02-d":{
+    "tag":"银色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 银色",
+    "imgArr": [
+      "img/product/a0003/2/c1.jpg",
+      "img/product/a0003/2/c2.jpg",
+      "img/product/a0003/2/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0004-01-d": {
+    "title": "戴尔DELL灵越游匣15PR-5745B 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0004/1/c0.jpg",
+      "img/product/a0004/1/c1.jpg",
+      "img/product/a0004/1/c2.jpg",
+      "img/product/a0004/1/c3.jpg",
+      "img/product/a0004/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "精锐版 i7-6700HQ",
+        "stock": "100",
+        "price": "6799.00"
+      },
+      {
+        "type": "宗师版 i5-7300HQ",
+        "stock": "100",
+        "price": "5799.00"
+      }
+    ]
+  },
+  "a0005-01-d": {
+    "title": "戴尔DELL成就开挂版5568R-1625S 15.6英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0005/1/c1.jpg",
+      "img/product/a0005/1/c2.jpg",
+      "img/product/a0005/1/c3.jpg",
+      "img/product/a0005/1/c4.jpg",
+      "img/product/a0005/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "开挂版 15.6英寸 i5 4G 128G+1T",
+        "stock": "100",
+        "price": "5599.00"
+      },
+      {
+        "type": "燃7000 14英寸 i5 8G 256G FHD金",
+        "stock": "100",
+        "price": "5099.00"
+      }
+    ]
+  },
+  "a0006-01-d": {
+    "title": "华硕(ASUS) 飞行堡垒尊享版二代FX53VD 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0006/1/c1.jpg",
+      "img/product/a0006/1/c2.jpg",
+      "img/product/a0006/1/c3.jpg",
+      "img/product/a0006/1/c4.jpg",
+      "img/product/a0006/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【1050-4G显卡】i7/8G/固态双盘",
+        "stock": "100",
+        "price": "6499.00"
+      },
+      {
+        "type": "【1050-4G显卡】i5/8G/1T/红黑",
+        "stock": "100",
+        "price": "5299.00"
+      }
+    ]
+  },
+  "a0007-01-d": {
+    "title": "ThinkPad X270（00CD）12.5英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0007/1/c1.jpg",
+      "img/product/a0007/1/c2.jpg",
+      "img/product/a0007/1/c3.jpg",
+      "img/product/a0007/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【20mm双电双硬】i5爆款",
+        "stock": "100",
+        "price": "7999.00"
+      },
+      {
+        "type": "【20mm单硬盘】i7殿堂版",
+        "stock": "100",
+        "price": "15999.00"
+      }
+    ]
+  },
+  "a0008-01-d": {
+    "tag":"谜夜黑",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 谜夜黑",
+    "imgArr": [
+      "img/product/a0008/1/c1.jpg",
+      "img/product/a0008/1/c2.jpg",
+      "img/product/a0008/1/c3.jpg",
+      "img/product/a0008/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-02-d": {
+    "tag":"绮梦金",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 绮梦金",
+    "imgArr": [
+      "img/product/a0008/2/c1.jpg",
+      "img/product/a0008/2/c2.jpg",
+      "img/product/a0008/2/c3.jpg",
+      "img/product/a0008/2/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-03-d": {
+    "tag":"雾屿蓝",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 雾屿蓝",
+    "imgArr": [
+      "img/product/a0008/3/c1.jpg",
+      "img/product/a0008/3/c2.jpg",
+      "img/product/a0008/3/c3.jpg",
+      "img/product/a0008/3/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-04-d": {
+    "tag":"烟晶灰",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 烟晶灰",
+    "imgArr": [
+      "img/product/a0008/4/c1.jpg",
+      "img/product/a0008/4/c2.jpg",
+      "img/product/a0008/4/c3.jpg",
+      "img/product/a0008/4/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+
+  "a0001-01-e":{
+    "tag":"磨砂黑",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (磨砂黑)",
+    "imgArr":[
+      "img/product/a0001/1/img1.jpg",
+      "img/product/a0001/1/img2.jpg",
+      "img/product/a0001/1/img3.jpg",
+      "img/product/a0001/1/img4.jpg",
+      "img/product/a0001/1/img5.jpg",
+      "img/product/a0001/1/img6.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-02-e":{
+    "tag":"香槟金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (香槟金)",
+    "imgArr":[
+      "img/product/a0001/2/img1.jpg",
+      "img/product/a0001/2/img2.jpg",
+      "img/product/a0001/2/img3.jpg",
+      "img/product/a0001/2/img4.jpg",
+      "img/product/a0001/2/img5.jpg",
+      "img/product/a0001/2/img6.jpg",
+      "img/product/a0001/2/img7.jpg",
+      "img/product/a0001/2/img8.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0001-03-e":{
+    "tag":"玫瑰金",
+    "title":"Apple iPhone 7 (A1660) 移动联通电信4G手机 (玫瑰金)",
+    "imgArr":[
+      "img/product/a0001/3/img1.jpg",
+      "img/product/a0001/3/img2.jpg",
+      "img/product/a0001/3/img3.jpg",
+      "img/product/a0001/3/img4.jpg",
+      "img/product/a0001/3/img5.jpg"
+    ],
+    "edition":[
+      {
+        "type":"32G",
+        "stock": "100",
+        "price": "5088.00"
+      },
+      {
+        "type":"64G",
+        "stock": "100",
+        "price": "6088.00"
+      },
+      {
+        "type":"128G",
+        "stock": "100",
+        "price": "7088.00"
+      }
+    ]
+  },
+  "a0002-01-e": {
+    "tag":"金色",
+    "title": "Apple iPhone SE (A1723) 金色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-02-e":{
+    "tag":"银色",
+    "title": "Apple iPhone SE (A1723) 银色 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/2/c1.png",
+      "img/product/a0002/2/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-03-e":{
+    "tag":"深空灰",
+    "title": "Apple iPhone SE (A1723) 16G 深空灰 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/3/c1.png",
+      "img/product/a0002/3/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0002-04-e":{
+    "tag":"玫瑰金",
+    "title": "Apple iPhone SE (A1723) 玫瑰金 移动联通电信4G手机",
+    "imgArr": [
+      "img/product/a0002/1/c1.png",
+      "img/product/a0002/1/c2.png"
+    ],
+    "edition": [
+      {
+        "type": "16G",
+        "stock": "100",
+        "price": "2099.00"
+      },
+      {
+        "type": "64G",
+        "stock": "100",
+        "price": "3399.00"
+      }
+    ]
+  },
+  "a0003-01-e": {
+    "tag":"深空灰色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 深空灰色",
+    "imgArr": [
+      "img/product/a0003/1/c1.jpg",
+      "img/product/a0003/1/c2.jpg",
+      "img/product/a0003/1/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0003-02-e":{
+    "tag":"银色",
+    "title": "Apple MacBook Pro 13.3英寸笔记本电脑 银色",
+    "imgArr": [
+      "img/product/a0003/2/c1.jpg",
+      "img/product/a0003/2/c2.jpg",
+      "img/product/a0003/2/c3.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【2017新】13.3英寸Touch Bar",
+        "stock": "100",
+        "price": "14288.00"
+      },
+      {
+        "type": "【2017新】13.3英寸",
+        "stock": "100",
+        "price": "11488.00"
+      }
+    ]
+  },
+  "a0004-01-e": {
+    "title": "戴尔DELL灵越游匣15PR-5745B 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0004/1/c0.jpg",
+      "img/product/a0004/1/c1.jpg",
+      "img/product/a0004/1/c2.jpg",
+      "img/product/a0004/1/c3.jpg",
+      "img/product/a0004/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "精锐版 i7-6700HQ",
+        "stock": "100",
+        "price": "6799.00"
+      },
+      {
+        "type": "宗师版 i5-7300HQ",
+        "stock": "100",
+        "price": "5799.00"
+      }
+    ]
+  },
+  "a0005-01-e": {
+    "title": "戴尔DELL成就开挂版5568R-1625S 15.6英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0005/1/c1.jpg",
+      "img/product/a0005/1/c2.jpg",
+      "img/product/a0005/1/c3.jpg",
+      "img/product/a0005/1/c4.jpg",
+      "img/product/a0005/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "开挂版 15.6英寸 i5 4G 128G+1T",
+        "stock": "100",
+        "price": "5599.00"
+      },
+      {
+        "type": "燃7000 14英寸 i5 8G 256G FHD金",
+        "stock": "100",
+        "price": "5099.00"
+      }
+    ]
+  },
+  "a0006-01-e": {
+    "title": "华硕(ASUS) 飞行堡垒尊享版二代FX53VD 15.6英寸游戏笔记本电脑",
+    "imgArr": [
+      "img/product/a0006/1/c1.jpg",
+      "img/product/a0006/1/c2.jpg",
+      "img/product/a0006/1/c3.jpg",
+      "img/product/a0006/1/c4.jpg",
+      "img/product/a0006/1/c5.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【1050-4G显卡】i7/8G/固态双盘",
+        "stock": "100",
+        "price": "6499.00"
+      },
+      {
+        "type": "【1050-4G显卡】i5/8G/1T/红黑",
+        "stock": "100",
+        "price": "5299.00"
+      }
+    ]
+  },
+  "a0007-01-e": {
+    "title": "ThinkPad X270（00CD）12.5英寸轻薄笔记本电脑",
+    "imgArr": [
+      "img/product/a0007/1/c1.jpg",
+      "img/product/a0007/1/c2.jpg",
+      "img/product/a0007/1/c3.jpg",
+      "img/product/a0007/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "【20mm双电双硬】i5爆款",
+        "stock": "100",
+        "price": "7999.00"
+      },
+      {
+        "type": "【20mm单硬盘】i7殿堂版",
+        "stock": "100",
+        "price": "15999.00"
+      }
+    ]
+  },
+  "a0008-01-e": {
+    "tag":"谜夜黑",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 谜夜黑",
+    "imgArr": [
+      "img/product/a0008/1/c1.jpg",
+      "img/product/a0008/1/c2.jpg",
+      "img/product/a0008/1/c3.jpg",
+      "img/product/a0008/1/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-02-e": {
+    "tag":"绮梦金",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 绮梦金",
+    "imgArr": [
+      "img/product/a0008/2/c1.jpg",
+      "img/product/a0008/2/c2.jpg",
+      "img/product/a0008/2/c3.jpg",
+      "img/product/a0008/2/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-03-e": {
+    "tag":"雾屿蓝",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 雾屿蓝",
+    "imgArr": [
+      "img/product/a0008/3/c1.jpg",
+      "img/product/a0008/3/c2.jpg",
+      "img/product/a0008/3/c3.jpg",
+      "img/product/a0008/3/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
+  },
+  "a0008-04-e": {
+    "tag":"烟晶灰",
+    "title": "三星（SAMSUNG）Galaxy S8（SM-G9500）4GB+64GB版 烟晶灰",
+    "imgArr": [
+      "img/product/a0008/4/c1.jpg",
+      "img/product/a0008/4/c2.jpg",
+      "img/product/a0008/4/c3.jpg",
+      "img/product/a0008/4/c4.jpg"
+    ],
+    "edition": [
+      {
+        "type": "S8（5.6英寸曲面屏 64GB版）",
+        "stock": "100",
+        "price": "5688.00"
+      }
+    ]
   }
 }
 }

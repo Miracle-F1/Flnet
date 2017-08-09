@@ -30,6 +30,14 @@ define(function (require,exports,module) {
             $(".bottom-b").load("html-snippets/bottom-2.html");
         }
 
+        function getQueryString(name) {
+            let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            let r = window.location.search.substr(1).match(reg);
+            if (r != null) return (r[2]);
+            return null;
+        }
+
+
         //-----------------------------内部函数-----------------------------
 
         //页面初始化
@@ -105,7 +113,8 @@ define(function (require,exports,module) {
             headerLoadB:headerLoadB,
             bottomLoadA:bottomLoadA,
             bottomLoadB:bottomLoadB,
-            pageInit:pageInit
+            pageInit:pageInit,
+            getQueryString:getQueryString
         }
     }
 );

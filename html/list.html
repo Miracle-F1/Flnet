@@ -60,7 +60,6 @@
 
                 <script id="productTemp" type="text/html">
                     {{each list as val key}}
-                        {{each val["type"] as val key}}
                         <li data-pid="{{key}}">
                             <div class="li-t">
                                 {{each val['imgArr'] as val key}}{{if key<=0}}<img src="{{val}}">{{/if}}{{/each}}
@@ -76,7 +75,6 @@
                                 <div class="add_cart">加入购物车</div>
                             </div>
                         </li>
-                        {{/each}}
                     {{/each}}
                 </script>
 <!--                <li>
@@ -96,15 +94,9 @@
                 </li>-->
             </ul>
             <div class="pages_nav clear">
-                <div class="a_btn">下一页&gt;</div>
-                <ul>
-                    <li class="active">1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                </ul>
-                <div class="a_btn">&lt;上一页</div>
+                <div class="a_btn next">下一页&gt;</div>
+                <ul></ul>
+                <div class="a_btn prev">&lt;上一页</div>
             </div>
         </div>
 </section>

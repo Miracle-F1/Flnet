@@ -1,0 +1,91 @@
+{
+  "list":{
+    "a0001":{
+      "subtitle":"8月热卖iPhone！",
+      "detailImgArr":[
+        "img/product/a0001/show/s1.jpg",
+        "img/product/a0001/show/s2.jpg",
+        "img/product/a0001/show/s3.jpg",
+        "img/product/a0001/show/s4.jpg",
+        "img/product/a0001/show/s5.jpg",
+        "img/product/a0001/show/s6.jpg",
+        "img/product/a0001/show/s7.jpg"
+      ],
+      "type":[
+        {"id":"a0001-01","name":"磨砂黑"},
+        {"id":"a0001-02","name":"香槟金"},
+        {"id":"a0001-03","name":"玫瑰金"}]
+    },
+    "a0002":{
+      "subtitle":"8月热卖iPhone！",
+      "detailImgArr":[
+        "img/product/a0002/show/a1.jpg",
+        "img/product/a0002/show/a2.jpg",
+        "img/product/a0002/show/a3.jpg"
+      ],
+      "type":[{"id":"a0002-01","name":"金色"},
+        {"id":"a0002-02","name":"银色"},
+        {"id":"a0002-03","name":"深空灰"},
+        {"id":"a0002-04","name":"玫瑰金"}]
+    },
+    "a0003":{
+      "subtitle":"2017新款MacBook Pro登场！第七代Intel i5处理器加持，配备Multi-Touch Bar！",
+      "detailImgArr":[
+        "img/product/a0003/show/c1.jpg",
+        "img/product/a0003/show/c2.jpg",
+        "img/product/a0003/show/c3.jpg",
+        "img/product/a0003/show/c4.jpg"
+      ],
+      "type": [{"id":"a0003-01","name":"深空灰"},
+        {"id":"a0003-02","name":"银色"}]
+    },
+    "a0004":{
+      "subtitle":"【游戏本选择4G独显，拒绝掉帧】“10”力出击，七代四核CPU",
+      "detailImgArr":[
+        "img/product/a0004/show/c1.jpg",
+        "img/product/a0004/show/c2.jpg",
+        "img/product/a0004/show/c3.jpg",
+        "img/product/a0004/show/c4.jpg"
+      ],
+      "type": [{"id":"a0004-01","name":""}]
+    },
+    "a0005":{
+      "subtitle":"【三边全景7mm微边框、77% 超高屏占比、金属材质】七代i5双核CPU",
+      "detailImgArr":[
+        "img/product/a0005/show/c1.jpg",
+        "img/product/a0005/show/c2.jpg",
+        "img/product/a0005/show/c3.jpg"
+      ],
+      "type": [{"id":"a0005-01","name":""}]
+    },
+    "a0006":{
+      "subtitle":"【8.9号限秒24小时！领券再减100！4G独显大显身手！】",
+      "detailImgArr":[
+        "img/product/a0006/show/c1.jpg",
+        "img/product/a0006/show/c2.jpg"
+      ],
+      "type": [{"id":"a0006-01","name":""}]
+    },
+    "a0007":{
+      "subtitle":"评论晒单返200元E卡！新经典！精致小黑！高效稳健办公！",
+      "detailImgArr":[
+        "img/product/a0007/show/c1.jpg",
+        "img/product/a0007/show/c2.jpg",
+        "img/product/a0007/show/c3.jpg",
+        "img/product/a0007/show/c4.jpg"
+      ],
+      "type": [{"id":"a0007-01","name":""}]
+    },
+    "a0008":{
+      "subtitle":"【白条6期免息，下单选礼品：64G内存卡或咖啡机或电饭煲或无线充】",
+      "detailImgArr":[
+        "img/product/a0008/show/c1.jpg",
+        "img/product/a0008/show/c2.jpg"
+      ],
+      "type": [{"id":"a0008-01","name":"谜夜黑"},
+        {"id":"a0008-02","name":"绮梦金"},
+        {"id":"a0008-03","name":"雾屿蓝"},
+        {"id":"a0008-04","name":"烟晶灰"}]
+    }
+  }
+}

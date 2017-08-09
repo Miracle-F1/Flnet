@@ -66,6 +66,7 @@ section {
             color: #e4393c; }
     section .main-content .product_list {
       width: 960px;
+      height: 1185px;
       margin-bottom: 50px; }
       section .main-content .product_list > li {
         float: left;
@@ -85,11 +86,14 @@ section {
         section .main-content .product_list > li p {
           padding: 0 15px;
           font-size: 14px;
+          height: 57px;
           margin-bottom: 15px; }
         section .main-content .product_list > li .price {
           padding: 0 25px;
           font-size: 18px;
           font-weight: 700;
+          height: 30px;
+          line-height: 30px;
           color: #e4393c; }
         section .main-content .product_list > li .li-b {
           height: 30px;
