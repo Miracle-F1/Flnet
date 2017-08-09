@@ -119,6 +119,9 @@ define(function (require,exports,module) {
                     }
                 }
                 cArr.unshift(pid);
+                if(cArr.length>5){
+                    cArr.pop();
+                }
                 Cookies.set("rensentItem",cArr);
             }else{
                 Cookies.set("rensentItem",[pid]);

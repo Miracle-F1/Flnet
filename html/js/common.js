@@ -43,23 +43,28 @@ define(function (require,exports,module) {
             if(ck){
                 let cArr = JSON.parse(ck);
                 for(let i in cArr){
-                    //console.log(cArr[i]);
-                    console.log(getProductImgID("a0001-01"));
+                    getProductImgID(cArr[i],function (data) {
+                        $(".resent_look ul li").eq(i).append(
+                            "<a href='detail.html?pid="+""+"'><img src='"+data["img"]
+                            +"'><p>"+data["title"]+"</p> <div class='price'>￥"+data["price"]+"</div></a>");
+                    });
                 }
             }
+            $(".resent_look h4 span").click(function () {
+                Cookies.remove("rensentItem");
+                $(".resent_look ul li").html("");
+            });
+
         }
 
-        function getProductImgID(pid){
+        function getProductImgID(pid,fn){
             $.get("json/productlist.json",function (data) {
                 for(let i in data["list"]){
-                    //console.log(data["list"][i]["imgArr"][0]);
-                    console.log(i);
-
                     if(i == pid){
-
-                        let c = {"title":data["list"][i]["title"],"img":data["list"][i]["imgArr"][0]};
-                        //console.log(c);
-                        //return c;
+                        fn({"title":data["list"][i]["title"],
+                            "img":data["list"][i]["imgArr"][0],
+                            "price":data["list"][i]["edition"][0]["price"]});
+                        return;
                     }
                 }
             });
