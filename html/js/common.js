@@ -1,6 +1,7 @@
 /**
  * Created by Administrator on 2017/8/5.
  */
+
 define(function (require,exports,module) {
     let jQuery= require("lib/jQuery-1.11.0");
     let template = require("lib/template");
