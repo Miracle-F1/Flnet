@@ -46,7 +46,7 @@ define(function (require,exports,module) {
                 for(let i in cArr){
                     getProductImgID(cArr[i],function (data) {
                         $(".resent_look ul li").eq(i).append(
-                            "<a href='detail.html?pid="+""+"'><img src='"+data["img"]
+                            "<a href='detail.html?pid="+data["pid"]+"'><img src='"+data["img"]
                             +"'><p>"+data["title"]+"</p> <div class='price'>￥"+data["price"]+"</div></a>");
                     });
                 }
@@ -59,11 +59,13 @@ define(function (require,exports,module) {
 
         function getProductImgID(pid,fn){
             $.get("json/productlist.json",function (data) {
+                console.log(data);
                 for(let i in data["list"]){
                     if(i == pid){
                         fn({"title":data["list"][i]["title"],
                             "img":data["list"][i]["imgArr"][0],
-                            "price":data["list"][i]["edition"][0]["price"]});
+                            "price":data["list"][i]["edition"][0]["price"],
+                            "pid":pid});
                         return;
                     }
                 }
@@ -92,7 +94,12 @@ define(function (require,exports,module) {
         }
 
         function headerCartInit(){
-
+            getCartJson(function (data) {
+                console.log("aaaaa"+data);
+                let html = template("scartTemp",data);
+                console.log(html);
+                $(".cart_item_list ul").html(html);
+            });
         }
 
         //主导航
@@ -157,19 +164,11 @@ define(function (require,exports,module) {
         }
     }
 
-    function removeCartByPid(pid){
-
-    }
-
-    function delCartByPid(pid){
-
-    }
-
     function getCartJson(fn){
         $.get("json/productlist.json",function (data) {
             let CJson = {"list":[]};
             let carCookie = Cookies.getJSON("cart");
-            console.log(carCookie);
+            console.log(data);
             for(let i in carCookie){
                 CJson["list"][i] = {};
                 data["list"][carCookie[i]["pid"]]["cprice"] = carCookie[i]["price"];

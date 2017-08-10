@@ -456,6 +456,7 @@ nav {
           font-weight: 700; }
       nav #cart-box .cil-f .go_cart {
         float: right;
+        display: block;
         background: #e4393c;
         color: #FFF;
         padding: 0 10px;

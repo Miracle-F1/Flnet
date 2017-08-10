@@ -362,73 +362,39 @@
                 <i class="iconfont">&#xe600;</i>购物车
                 <div class="show-num">0</div>
                 <div class="cart_item_list">
-                    <ul>
+                    <script id="scartTemp" type="text/html">
+                        {{each list as val key}}
                         <li>
-                            <img src="img/product/iPhone7/1/nm.jpg">
-                            <div class="item_name">
-                            Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机
-                            </div>
+                            {{each val as val key}}
+                                <img src="{{val['imgArr'][0]}}">
+                            <div class="item_name">{{val["title"]}}</div>
+
                             <div class="item_info">
-                                <p><span class="price">￥4999.00</span> x 
-                                <span class="num">3</span></p>
+                                <p><span class="price">￥{{val["cprice"]}}</span> x
+                                    <span class="num">{{val['num']}}</span></p>
                                 <span class="del-btn">删除</span>
                             </div>
-                        </li>                        <li>
-                            <img src="img/product/iPhone7/1/nm.jpg">
-                            <div class="item_name">
-                            Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机
-                            </div>
-                            <div class="item_info">
-                                <p><span class="price">￥4999.00</span> x 
-                                <span class="num">3</span></p>
-                                <span class="del-btn">删除</span>
-                            </div>
-                        </li>                        <li>
-                            <img src="img/product/iPhone7/1/nm.jpg">
-                            <div class="item_name">
-                            Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机
-                            </div>
-                            <div class="item_info">
-                                <p><span class="price">￥4999.00</span> x 
-                                <span class="num">3</span></p>
-                                <span class="del-btn">删除</span>
-                            </div>
-                        </li>                        <li>
-                            <img src="img/product/iPhone7/1/nm.jpg">
-                            <div class="item_name">
-                            Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机
-                            </div>
-                            <div class="item_info">
-                                <p><span class="price">￥4999.00</span> x 
-                                <span class="num">3</span></p>
-                                <span class="del-btn">删除</span>
-                            </div>
-                        </li>                        <li>
-                            <img src="img/product/iPhone7/1/nm.jpg">
-                            <div class="item_name">
-                            Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机
-                            </div>
-                            <div class="item_info">
-                                <p><span class="price">￥4999.00</span> x 
-                                <span class="num">3</span></p>
-                                <span class="del-btn">删除</span>
-                            </div>
-                        </li>                        <li>
-                            <img src="img/product/iPhone7/1/nm.jpg">
-                            <div class="item_name">
-                            Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机
-                            </div>
-                            <div class="item_info">
-                                <p><span class="price">￥4999.00</span> x 
-                                <span class="num">3</span></p>
-                                <span class="del-btn">删除</span>
-                            </div>
+                            {{/each}}
                         </li>
+                        {{/each}}
+                    </script>
+                    <ul>
+<!--                        <li>
+                            <img src="img/product/iPhone7/1/nm.jpg">
+                            <div class="item_name">
+                            Apple iPhone 7 (A1660) 32G 黑色 移动联通电信4G手机
+                            </div>
+                            <div class="item_info">
+                                <p><span class="price">￥4999.00</span> x 
+                                <span class="num">3</span></p>
+                                <span class="del-btn">删除</span>
+                            </div>
+                        </li>-->
                     </ul>
                     <div class="cil-f">
                         <div class="item_num">共<span> 4 </span>件商品</div>
                         <div class="item_total_price">共计<span>￥4999.00</span></div>
-                        <div class="go_cart">去购物车</div>
+                        <a class="go_cart" href="cart.html">去购物车</a>
                     </div>
                 </div>
             </div>

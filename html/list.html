@@ -12,6 +12,15 @@
 <body>
 <div class="header-a"></div>
 <div class="header-b"></div>
+<div class="cover">
+    <div>
+        <h3>成功加入到购物车~</h3>
+        <p>该商品成功加入购物车~</p>
+        <a href="javascript:void(0);" class="btn1">确 定</a>
+        <a href="cart.html" class="btn2">跳转至购物车</a>
+        <i class="iconfont">&#xe65f;</i>
+    </div>
+</div>
 <section class="container clear">
         <div class="resent_look">
             <h4>最近浏览<span>清空</span></h4>
@@ -42,14 +51,14 @@
                                 {{each val['imgArr'] as val key}}{{if key<=0}}<img src="{{val}}">{{/if}}{{/each}}
                             </div>
                             <p>{{val["title"]}}</p>
-                            <div class="price">
-                                {{each val["edition"] as val key}}{{if key<=0}}￥{{val["price"]}}{{/if}}{{/each}}
-                            </div>
+
+                                {{each val["edition"] as val key}}{{if key<=0}}<div class="price" data-edition = "{{val['type']}}" data-price="{{val["price"]}}">￥{{val["price"]}}</div>{{/if}}{{/each}}
+
                             <div class="li-b">
-                                <div class="num-btn"><a href=""><i class="iconfont">&#xe6d4;</i></a></div>
-                                <input type="text" maxlength="3" value="1">
-                                <div class="num-btn"><a href=""><i class="iconfont">&#xe665;</i></a></div>
-                                <div class="add_cart">加入购物车</div>
+                                <div class="num-btn jian"><a href="javascript:void(0);"><i class="iconfont">&#xe6d4;</i></a></div>
+                                <input type="text" maxlength="3" value="1" disabled>
+                                <div class="num-btn jia"><a href="javascript:void(0);"><i class="iconfont">&#xe665;</i></a></div>
+                                <div class="add_cart" data-pid="{{key}}">加入购物车</div>
                             </div>
                         </li>
                     {{/each}}

@@ -42,11 +42,11 @@
                     <div class="li-1">
                         <input type="checkbox">
                     </div>
-                    <a class="li-2" href="detail.html?pid={{key}}">
+                    <a class="li-2" href="detail.html?pid={{key}}" data-pid="{{key}}">
                         <img src="{{val['imgArr'][0]}}">
                     </a>
                     <div class="li-3">{{val["title"]}}</div>
-                    <div class="li-4">类型: {{val["cedition"]}}<span></span></div>
+                    <div class="li-4">类型: <span>{{val["cedition"]}}</span></div>
                     <div class="li-5-a">
                         ￥<span>{{val["cprice"]}}</span>
                     </div>
@@ -96,7 +96,7 @@
                 总价：￥<span>0.00</span>
             </div>
             <div class="i5">
-
+                <span>清空购物车</span>
             </div>
             <div class="i6">
                 已选择 <span>0</span> 件商品

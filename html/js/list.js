@@ -33,8 +33,34 @@ define(function (require,exports,module) {
                 let id = $(this).parents("li").attr("data-pid");
                 location.assign("detail.html?pid="+id);
             });
+            cartBtnInin();
             pageBtnInit(itemnum,pageSize);
         },true);
+    }
+
+    function cartBtnInin(){
+        $(".li-b").find(".jian").click(function () {
+            let $supNum = $(this).parents(".li-b");
+            let num = $supNum.find("input").val();
+            if(num > 1){
+                $supNum.find("input").val(num -1);
+            }
+        }).end().find(".jia").click(function () {
+            let $supNum = $(this).parents(".li-b");
+            $supNum.find("input").val(+$supNum.find("input").val()+1);
+        });
+
+        $(".add_cart").click(function () {
+            $(".cover").show();
+            let $sup = $(this).parents("li");
+            common.addCartByPid($(this).attr("data-pid"),$sup.find("input").val(),$sup.find(".price").attr("data-edition"),$sup.find(".price").attr("data-price"));
+            $sup.find("input").val("1");
+        });
+
+        $(".cover").find(".btn1,i").click(function () {
+            $(".cover").hide();
+        });
+
     }
 
     //分页按钮初始化
@@ -75,6 +101,7 @@ define(function (require,exports,module) {
                 let id = $(this).parents("li").attr("data-pid");
                 location.assign("detail.html?pid="+id);
             });
+            cartBtnInin();
         });
     }
 

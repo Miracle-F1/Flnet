@@ -33,15 +33,21 @@ define(function (require,exports,module) {
 
             //购物车加减-----------------------------------------------------
             $(".li-5").find(".jia").click(function () {
+                let $item = $(this).parents(".item");
                 $(this).siblings("input").val(+$(this).siblings("input").val()+1);
                 ItemChange( $(this).parents(".item").index());
+                //console.log($item.find(".li-2").attr("data-pid"),1,$item.find(".li-4 span"),$item.find(".li-5-a span"));
+                common.addCartByPid($item.find(".li-2").attr("data-pid"),1,$item.find(".li-4 span"),$item.find(".li-5-a span"));
                 if($(this).parents(".item").find("[type=checkbox]").is(":checked")){
                     cartBottomChange();
                 }
             }).end().find(".jian").click(function () {
+                let $item = $(this).parents(".item");
                 if($(this).siblings("input").val() != 1){
                     $(this).siblings("input").val(+$(this).siblings("input").val()-1);
                     ItemChange( $(this).parents(".item").index());
+                    //console.log($item.find(".li-2").attr("data-pid"),-1,$item.find(".li-4 span"),$item.find(".li-5-a span"));
+                    common.addCartByPid($item.find(".li-2").attr("data-pid"),-1,$item.find(".li-4 span"),$item.find(".li-5-a span"));
                     if($(this).parents(".item").find("[type=checkbox]").is(":checked")){
                         cartBottomChange();
                     }
@@ -59,10 +65,12 @@ define(function (require,exports,module) {
                 $cover.show().find(".btn1").off().click(function () {
                     //单个删除---------------------------------------------------
                     oIt.remove();
+                    delCartItem(oIt.find(".li-2").attr("data-pid"));
                     cartBottomChange();
                     $cover.hide();
                 });
             });
+
 
             $(".cart_item [type=checkbox]").click(function () {
                 cartBottomChange();
@@ -74,26 +82,55 @@ define(function (require,exports,module) {
             });
 
             $(".selall").click(function () {
-                console.log($(this).is(":checked"));
                 if($(this).is(":checked")){
-                    console.log("aa");
                     $(".cart_item [type=checkbox]").each(function () {
+                        //$(this).attr("checked",true);
                         this.checked = true;
                     });
                 }else{
-                    console.log("bb");
                     $(".cart_item [type=checkbox]").each(function () {
+                        //$(this).attr("checked",false);
                         this.checked = false;
                     });
                 }
                 cartBottomChange();
             });
 
-            //删除所选----------------------------------------------------
-            $(".cart_footer .i3 span").click(function () {
-                $(".cart_item [type=checkbox]:checked");
+            //清空购物车
+            $(".cart_footer .i5 span").click(function () {
+                $cartItem.html("");
+                cartBottomChange();
+                Cookies.remove("cart");
             });
 
+
+            //删除所选----------------------------------------------------
+            $(".cart_footer .i3 span").click(function () {
+                $cover.show().find(".btn1").off().click(function () {
+                    //批量删除---------------------------------------------------
+                        //.remove()
+                        console.log("sssA");
+                        $(".cart_item [type=checkbox]:checked").parents(".item").each(function () {
+                            delCartItem($(this).find(".li-2").attr("data-pid"));
+                            $(this).remove();
+                        });
+                    cartBottomChange();
+                    $cover.hide();
+                });
+            });
+
+
+            function delCartItem(pid){
+                let ckArr = Cookies.getJSON("cart");
+                for(let i in ckArr){
+                    console.log(ckArr[i]["pid"],pid);
+                    if(ckArr[i]["pid"] == pid){
+                        ckArr.splice(i,1);
+                        Cookies.set("cart",ckArr);
+                        return
+                    }
+                }
+            }
 
             function cartBottomChange(){
                 let $Arr= $cartItem.find(":checked");
