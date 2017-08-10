@@ -80,7 +80,7 @@ define(function (require,exports,module) {
 
     //分页获取数据
     function getDataByItemLength(path,begin,pagesize,fn,flag){
-        $.post(path,function (data) {
+        $.get(path,function (data) {
             let adata = {"list": {}};
             let i = 0;
             for(let index in data["list"]){

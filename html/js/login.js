@@ -39,7 +39,7 @@ define(function (require,exports,module) {
                 case codeCheck(code):
                     break;
                 default:
-                    $.post("json/user.json",function (data) {
+                    $.get("json/user.json",function (data) {
                         let flag = false;
                         for(let i in data){
                             if(data[i]["username"] == username && data[i]["password"] == password){
