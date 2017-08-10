@@ -5,8 +5,8 @@ define(function (require,exports,module) {
     let common = require("common");
     let jQuery = require("lib/jQuery-1.11.0");
     let jscookie = require("lib/js-cookie");
-    main(common);
-    function main(common){
+
+    function start(){
         $(function () {
             let inint_item=
                 [common.headerLoadA,
@@ -182,5 +182,8 @@ define(function (require,exports,module) {
         }else{
             return Math.floor(Math.random()*10);
         }
+    }
+    module.exports = {
+        start:start
     }
 });

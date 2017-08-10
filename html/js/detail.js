@@ -7,9 +7,7 @@ define(function (require,exports,module) {
     let jscookie = require("lib/js-cookie");
     let template = require("lib/template");
 
-    main();
-
-    function main() {
+    function start() {
         $(function () {
             let inint_item =
                 [common.headerLoadA,
@@ -228,6 +226,10 @@ define(function (require,exports,module) {
             html = template("commontTemp",data["lv1"]);
             $(".msg_list.lv1").html(html);
         });
+    }
+
+    module.exports = {
+        start:start
     }
 }
 );

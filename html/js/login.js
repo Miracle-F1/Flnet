@@ -5,9 +5,8 @@ define(function (require,exports,module) {
     let common = require("common");
     let jQuery = require("lib/jQuery-1.11.0");
     let jscookie = require("lib/js-cookie");
-    main(common);
 
-    function main(common){
+    function start(){
         $(function () {
             //页面初始化
             let inint_item=
@@ -108,5 +107,10 @@ define(function (require,exports,module) {
             return Math.floor(Math.random()*10);
         }
     }
+
+    module.exports = {
+        start:start
+    }
+
 });
 

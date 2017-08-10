@@ -7,9 +7,7 @@ define(function (require,exports,module) {
     let jscookie = require("lib/js-cookie");
     let template = require("lib/template");
 
-    main();
-
-    function main() {
+    function start() {
         $(function () {
             let inint_item =
                 [common.headerLoadA,
@@ -117,5 +115,8 @@ define(function (require,exports,module) {
         $thisItem.find(".li-6 span").html($thisItem.find(".li-5-a span").html()*$thisItem.find(".li-5 input").val());
     }
 
+    module.exports = {
+        start:start
+    }
 
 });

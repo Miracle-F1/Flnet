@@ -6,7 +6,7 @@ define(function (require,exports,module) {
     let common = require("common");
     let template = require("lib/template");
 
-    function main(){
+    function start(){
         $(function(){
             //页面初始化
             let inint_item=
@@ -103,7 +103,7 @@ define(function (require,exports,module) {
     }
 
     module.exports = {
-        main:main
+        start:start
     }
 });
 

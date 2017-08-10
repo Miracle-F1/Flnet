@@ -7,9 +7,7 @@ define(function (require,exports,module) {
     let jscookie = require("lib/js-cookie");
     let template = require("lib/template");
 
-    main(common);
-
-    function main(common){
+    function start(){
         $(function () {
             let inint_item=
                 [common.headerLoadA,
@@ -105,6 +103,9 @@ define(function (require,exports,module) {
                 fn(adata);
             }
         });
+    }
+    module.exports = {
+        start:start
     }
 });
 
