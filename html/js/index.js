@@ -1,9 +1,11 @@
 /**
  * Created by Administrator on 2017/8/5.
  */
-seajs.use(["lib/jQuery-1.11.0", "common","lib/template"], function(jQuery,common,template) {
+define(function (require,exports,module) {
+    let jQuery= require("lib/jQuery-1.11.0");
+    let common = require("common");
+    let template = require("lib/template");
 
-    main();
     function main(){
         $(function(){
             //页面初始化
@@ -100,5 +102,8 @@ seajs.use(["lib/jQuery-1.11.0", "common","lib/template"], function(jQuery,common
         }
     }
 
+    module.exports = {
+        main:main
+    }
 });
 
