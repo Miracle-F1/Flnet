@@ -3,7 +3,7 @@
  */
 define(function (require,exports,module) {
     let jQuery= require("lib/jQuery-1.11.0");
-    let common = require("common");
+    let common = require("js/common");
     let template = require("lib/template");
 
     main(common,template);

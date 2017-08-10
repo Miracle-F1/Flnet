@@ -2,7 +2,7 @@
  * Created by Administrator on 2017/8/10.
  */
 define(function (require,exports,module) {
-    let common = require("common");
+    let common = require("js/common");
     let jQuery = require("lib/jQuery-1.11.0");
     let jscookie = require("lib/js-cookie");
     let template = require("lib/template");
