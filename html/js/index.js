@@ -1,13 +1,9 @@
 /**
  * Created by Administrator on 2017/8/5.
  */
-define(function (require,exports,module) {
-    let jQuery= require("lib/jQuery-1.11.0");
-    let common = require("common");
-    let template = require("lib/template");
+seajs.use(["lib/jQuery-1.11.0", "common","lib/template"], function(jQuery,common,template) {
 
     main();
-
     function main(){
         $(function(){
             //页面初始化
@@ -103,5 +99,6 @@ define(function (require,exports,module) {
             });
         }
     }
+
 });
 
