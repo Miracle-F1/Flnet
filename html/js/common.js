@@ -166,7 +166,7 @@ define(function (require,exports,module) {
     }
 
     function getCartJson(fn){
-        $.post("json/productlist.json",function (data) {
+        $.get("json/productlist.json",function (data) {
             let CJson = {"list":[]};
             let carCookie = Cookies.getJSON("cart");
             console.log(carCookie);

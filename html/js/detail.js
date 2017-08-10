@@ -34,7 +34,7 @@ define(function (require,exports,module) {
 
 
         //主数据加载--color加载
-        $.post("json/productdetail.json",function (data) {
+        $.get("json/productdetail.json",function (data) {
             let html = "";
             let spdata = data["list"][idArr[0]];
             $pbr.find("h5").html(spdata["subtitle"]);
@@ -150,7 +150,7 @@ define(function (require,exports,module) {
 
         //辅数据加载 ---edition
         function getDetail(pid){
-            $.post("json/productlist.json",function (data) {
+            $.get("json/productlist.json",function (data) {
                 let spdata = data["list"][pid];
                 $pbr.find("h3").html(data["list"][pid]["title"]);
                 //edition遍历
@@ -227,7 +227,7 @@ define(function (require,exports,module) {
             $(".msg_list.lv1").html(html);
         });
     }
-
+        https://miracle-f1.github.io/Flnet/
     module.exports = {
         start:start
     }
