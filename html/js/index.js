@@ -6,9 +6,9 @@ define(function (require,exports,module) {
     let common = require("common");
     let template = require("lib/template");
 
-    main(common,template);
+    main();
 
-    function main(common,template){
+    function main(){
         $(function(){
             //页面初始化
             let inint_item=
