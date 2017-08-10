@@ -17,6 +17,7 @@ define(function (require,exports,module) {
                     common.bottomLoadA,
                     common.bottomLoadB,
                     common.pageInit,
+                    common.recentLook,
                     showPList];
 
             common.pageInit(inint_item);

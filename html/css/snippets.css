@@ -77,8 +77,8 @@
       background: #FFF;
       margin: 0;
       border: 1px solid #DDD;
-        border-top: 0px;
-        border-bottom: 0px; }
+        border-top: 0;
+        border-bottom: 0; }
       #header-t .top_menu_sub:hover .box, #header-t .top_sitenav:hover .box, #header-t .top_client:hover .box, #header-t .top_download:hover .box {
         display: block; }
     #header-t .top_menu_sub .box, #header-t .top_sitenav .box, #header-t .top_client .box, #header-t .top_download .box {
@@ -552,5 +552,55 @@ nav {
     vertical-align: bottom;
     height: 40px;
     margin: 0 20px; }
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 30000;
+  display: none; }
+  .cover div {
+    position: absolute;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 372px;
+    height: 148px;
+    border: 2px solid #333;
+    background: #fff;
+    padding: 18px 0 0 30px; }
+    .cover div h3 {
+      font: 700 16px/26px ""; }
+    .cover div p {
+      font: 12px/56px ""; }
+    .cover div a {
+      display: inline-block;
+      padding: 0 15px;
+      height: 30px;
+      font: 700 12px/30px "";
+      text-align: center;
+      border-radius: 7px; }
+    .cover div .btn1 {
+      background: #52a0e5;
+      color: #fff;
+      margin-right: 10px; }
+    .cover div .btn2 {
+      border: 1px solid #ccc; }
+    .cover div i {
+      position: absolute;
+      right: 22px;
+      top: 16px;
+      cursor: pointer; }
+    .cover div .btn1:hover {
+      text-decoration: underline; }
+    .cover div .btn2:hover {
+      text-decoration: underline;
+      color: #ff0036; }
 
 /*# sourceMappingURL=snippets.css.map */

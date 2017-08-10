@@ -54,7 +54,6 @@ define(function (require,exports,module) {
                 Cookies.remove("rensentItem");
                 $(".resent_look ul li").html("");
             });
-
         }
 
         function getProductImgID(pid,fn){
@@ -139,6 +138,48 @@ define(function (require,exports,module) {
             });
         }
 
+    function addCartByPid(pid,num,edtion,price){
+        let cartC = Cookies.getJSON("cart");
+        console.log(cartC);
+        if(cartC){
+            for(let i in cartC){
+                if(cartC[i]["pid"] == pid){
+                    cartC[i]["num"] = +cartC[i]["num"] + +num;
+                    Cookies.set("cart",cartC);
+                    return;
+                }
+            }
+            cartC.push({"pid":pid,"num":num,"edtion":edtion,"price":price});
+            Cookies.set("cart",cartC);
+        }else{
+            Cookies.set("cart",[{"pid":pid,"num":num,"edtion":edtion,"price":price}]);
+        }
+    }
+
+    function removeCartByPid(pid){
+
+    }
+
+    function delCartByPid(pid){
+
+    }
+
+    function getCartJson(fn){
+        $.post("json/productlist.json",function (data) {
+            let CJson = {"list":[]};
+            let carCookie = Cookies.getJSON("cart");
+            console.log(carCookie);
+            for(let i in carCookie){
+                CJson["list"][i] = {};
+                data["list"][carCookie[i]["pid"]]["cprice"] = carCookie[i]["price"];
+                data["list"][carCookie[i]["pid"]]["cedition"] = carCookie[i]["edtion"];
+                data["list"][carCookie[i]["pid"]]["num"] = carCookie[i]["num"];
+                CJson["list"][i][carCookie[i]["pid"]] = data["list"][carCookie[i]["pid"]];
+            }
+            fn(CJson);
+        });
+    }
+
         module.exports = {
             //页面片段加载
             headerLoadA:headerLoadA,
@@ -147,7 +188,9 @@ define(function (require,exports,module) {
             bottomLoadB:bottomLoadB,
             pageInit:pageInit,
             getQueryString:getQueryString,
-            recentLook:recentLook
+            recentLook:recentLook,
+            addCartByPid:addCartByPid,
+            getCartJson:getCartJson
         }
     }
 );

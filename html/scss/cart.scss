@@ -69,6 +69,7 @@ section{
             }
             .li-2{
                 margin-left: 20px;
+                display: block;
                 img{
                     width: 75px;
                     height: 75px;
@@ -81,13 +82,14 @@ section{
                 margin-left: 20px;
             }
             .li-4{
-                line-height: 35px;
+                line-height: 18px;
                 margin-left: 25px;
+                width: 80px;
                 color: #666;
             }
             .li-5-a{
-                margin-left: 140px;
-                
+                margin-left: 120px;
+                width: 75px;
             }
             .li-5{ 
                 box-sizing: border-box;
@@ -100,6 +102,7 @@ section{
                     width: 30px;
                     padding: 2px 10px;
                     font-size: 18px;
+                    text-align: center;
                 }
                 .num-btn{
                     float: left;
@@ -122,6 +125,7 @@ section{
                 margin-left: 20px;
                 font-size: 16px;
                 font-weight: 700;
+                width: 80px;
             }
             .li-7{
                 margin-left: 25px;

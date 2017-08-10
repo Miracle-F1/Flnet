@@ -17,6 +17,7 @@ define(function (require,exports,module) {
                     common.bottomLoadA,
                     common.bottomLoadB,
                     common.pageInit,
+                    common.recentLook,
                     showPDetail,
                     loadCommont];
 
@@ -34,7 +35,6 @@ define(function (require,exports,module) {
         let idArr= common.getQueryString("pid").split("-");
 
 
-        common.recentLook();
         //主数据加载--color加载
         $.post("json/productdetail.json",function (data) {
             let html = "";
@@ -51,17 +51,17 @@ define(function (require,exports,module) {
                     html += "<div class='type-item' data-id='"+spdata["type"][i]["id"]+"'>"+spdata["type"][i]["name"]+"</div>"
                 }
                 html+="</div>";
-                $selectins1.append(html);
-                $(".select-bar.color .type-item").click(function () {
-                    $(this).addClass("active").siblings().removeClass("active");
-                    setRecentP($(this).attr("data-id"));
-                    getDetail($(this).attr("data-id"));
-                }).filter(":nth-child(2)").click();
-
+            }else{
+                html = "<div class='select-bar color'> <div class='title'>颜色:</div>"
+                +"<div class='type-item' data-id='"+spdata["type"][0]["id"]+"'>默认</div>"
+                +"</div>"
             }
-            getDetail(idArr[0] + "-" + idArr[1]);
-            setRecentP(idArr[0] + "-" + idArr[1]);
-            zoomInit();
+            $selectins1.append(html);
+            $(".select-bar.color .type-item").click(function () {
+                $(this).addClass("active").siblings().removeClass("active");
+                setRecentP($(this).attr("data-id"));
+                getDetail($(this).attr("data-id"));
+            }).filter("[data-id="+idArr[0] + "-" + idArr[1]+"]").click();
             let numinp = $("#numipt");
             $(".buy-t").find(".jian").click(function () {
                 let num = numinp.val();
@@ -71,8 +71,30 @@ define(function (require,exports,module) {
             }).end().find(".jia").click(function () {
                 numinp.val(+numinp.val()+1);
             });
+            zoomInit();
+            otherInit();
         });
 
+        //弹层初始化及加入购物车初始化
+        function otherInit(){
+            let $cover = $(".cover");
+            $cover.find(".btn1,i").click(function () {
+                $cover.hide();
+            });
+            $cover.find(".btn2").click(function () {
+                location.assign("cart.html");
+            });
+
+            $(".buy-b .bb-btn").click(function () {
+                $cover.show();
+                common.addCartByPid(
+                    $(".select-bar.color .type-item.active").attr("data-id"),
+                    $("#numipt").val(),
+                    $(".select-bar.edition .type-item.active").html(),
+                    $(".pt-1 span").filter("[data-price]").attr("data-price"));
+            });
+
+        }
 
         //放大镜初始化
         function zoomInit(){
@@ -142,7 +164,7 @@ define(function (require,exports,module) {
                 $selectins2.html(html);
                 $(".select-bar.edition .type-item").click(function () {
                     $(this).addClass("active").siblings().removeClass("active");
-                    $(".pt-1 span:nth-child(2)").html("￥ "+spdata["edition"][$(this).index()-1]["price"]);
+                    $(".pt-1 span:nth-child(2)").html("￥ "+spdata["edition"][$(this).index()-1]["price"]).attr("data-price",spdata["edition"][$(this).index()-1]["price"]);
                 }).filter(":nth-child(2)").click();
 
                 html= "";
@@ -160,6 +182,8 @@ define(function (require,exports,module) {
             });
         }
     }
+
+    //加载评论
     function loadCommont(){
         $(".main-title-bar").find("li:first-child").click(function () {
             $(this).addClass("active").siblings().removeClass("active");
@@ -180,6 +204,7 @@ define(function (require,exports,module) {
             let lcl3 = Math.round((lv3num/sum)*100);
             let lcl2 = Math.round((lv2num/sum)*100);
             let lcl1 = Math.round((lv1num/sum)*100);
+            let cArr = [lcl3,lcl2,lcl1];
 
             $(".msg-nav li").click(function () {
                $(this).addClass("active").siblings().removeClass("active");
@@ -188,15 +213,12 @@ define(function (require,exports,module) {
             }).eq(0).find("span").html(lv3num)
                 .end().end().eq(1).find("span").html(lv2num)
                 .end().end().eq(2).find("span").html(lv1num);
-            $(".p2 .p2-item").eq(0).find(".process-bar")
-                .css({"background":"linear-gradient(to right,#3F85D0 "+lcl3+"%, #B6B5B5 "+lcl3+"%)"})
-                .end().find("span").html(lcl3+"%");
-            $(".p2 .p2-item").eq(1).find(".process-bar")
-                .css({"background":"linear-gradient(to right,#3F85D0 "+lcl2+"%, #B6B5B5 "+lcl2+"%)"})
-                .end().find("span").html(lcl2+"%");
-            $(".p2 .p2-item").eq(2).find(".process-bar")
-                .css({"background":"linear-gradient(to right,#3F85D0 "+lcl1+"%, #B6B5B5 "+lcl1+"%)"})
-                .end().find("span").html(lcl1+"%");
+
+            for(let i in cArr){
+                $(".p2 .p2-item").eq(i).find(".process-bar")
+                    .css({"background":"linear-gradient(to right,#3F85D0 "+cArr[i]+"%, #B6B5B5 "+cArr[i]+"%)"})
+                    .end().find("span").html(cArr[i]+"%");
+            }
             $(".p1 span").html(lcl3+"%");
 
             let html = template("commontTemp",data["lv3"]);
@@ -207,8 +229,5 @@ define(function (require,exports,module) {
             $(".msg_list.lv1").html(html);
         });
     }
-
-
-
 }
 );

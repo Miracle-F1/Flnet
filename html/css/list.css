@@ -15,23 +15,22 @@
   .resent_look ul {
     box-sizing: border-box;
     padding: 0 20px; }
-    .resent_look ul li {
+    .resent_look ul li a {
       padding: 20px 0;
-      border-bottom: 1px solid #DDD; }
-      .resent_look ul li a {
-        display: block; }
-        .resent_look ul li a img {
-          width: 180px;
-          height: 180px;
-          margin-bottom: 15px; }
-        .resent_look ul li a p {
-          font-size: 14px;
-          color: #666;
-          margin-bottom: 10px; }
-        .resent_look ul li a .price {
-          height: 20px;
-          font: 700 18px/20px "";
-          color: #e4393c; }
+      border-bottom: 1px solid #DDD;
+      display: block; }
+      .resent_look ul li a img {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 15px; }
+      .resent_look ul li a p {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 10px; }
+      .resent_look ul li a .price {
+        height: 20px;
+        font: 700 18px/20px "";
+        color: #e4393c; }
 
 section {
   padding: 30px 0; }
