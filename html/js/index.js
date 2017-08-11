@@ -41,7 +41,10 @@ define(function (require,exports,module) {
         function topADInit(){
             $("#ad-hide-btn").click(function () {
                 $(this).parent().fadeOut("fast");
-            })
+            });
+            $(".cover").show().find("i,a").click(function () {
+                $(".cover").hide();
+            });
         }
 
         //Banner

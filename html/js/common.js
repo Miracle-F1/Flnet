@@ -9,7 +9,7 @@ define(function (require,exports,module) {
 
         //对外接口
         function headerLoadA(){
-            $.ajaxSetup({cache: false}); //关闭AJAX相应的缓存
+            //$.ajaxSetup({cache: false}); //关闭AJAX相应的缓存
             $(".header-a").load("html-snippets/top-1.html",function () {
                 rightNavInit();
             });
