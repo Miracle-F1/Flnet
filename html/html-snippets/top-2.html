@@ -49,7 +49,7 @@
         <div class="container">
             <div class="head-nav">
                 <i class="iconfont">&#xe69a;</i>
-                所有商品分类
+                <a href="list.html">所有商品分类</a>
                 <i class="iconfont">&#xe601;</i>
                 <div class="type_list">
                     <ul>
@@ -58,9 +58,9 @@
                             <li>
                                 <i class="iconfont">{{val["icon-code"]}}</i>
                                 <div class="content">
-                                    <a href="">{{val["content"]["title"]}}</a><br/>
+                                    <a href="list.html">{{val["content"]["title"]}}</a><br/>
                                     {{each val["content"]["reco"] as val key}}
-                                        <a href="">{{val}}</a>
+                                        <a href="list.html">{{val}}</a>
                                     {{/each}}
                                 </div>
                                 <div class="type_detail">
@@ -68,11 +68,11 @@
                                     {{each val["type-list"] as val key}}
                                         <li class="clear">
                                             <div class="list-l">
-                                                <a href="">{{val["type"]}} &gt;</a>
+                                                <a href="list.html">{{val["type"]}} &gt;</a>
                                             </div>
                                             <ul class="clear">
                                                 {{each val["detail"] as val key}}
-                                                <li><a href=""> {{val}}</a></li>
+                                                <li><a href="list.html"> {{val}}</a></li>
                                                 {{/each}}
                                             </ul>
                                         </li>
@@ -360,7 +360,7 @@
             </ul>
             <div id="cart-box">
                 <i class="iconfont">&#xe600;</i>购物车
-                <div class="show-num">0</div>
+                <div class="show-num" id="show-num"></div>
                 <div class="cart_item_list">
                     <script id="scartTemp" type="text/html">
                         {{each list as val key}}
@@ -370,9 +370,9 @@
                             <div class="item_name">{{val["title"]}}</div>
 
                             <div class="item_info">
-                                <p><span class="price">￥{{val["cprice"]}}</span> x
+                                <p>￥<span class="price">{{val["cprice"]}}</span> x
                                     <span class="num">{{val['num']}}</span></p>
-                                <span class="del-btn">删除</span>
+                                <span class="del-btn" data-pid="{{key}}">删除</span>
                             </div>
                             {{/each}}
                         </li>
@@ -393,7 +393,7 @@
                     </ul>
                     <div class="cil-f">
                         <div class="item_num">共<span> 4 </span>件商品</div>
-                        <div class="item_total_price">共计<span>￥4999.00</span></div>
+                        <div class="item_total_price">共计￥<span>4999.00</span></div>
                         <a class="go_cart" href="cart.html">去购物车</a>
                     </div>
                 </div>

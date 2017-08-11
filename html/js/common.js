@@ -97,11 +97,38 @@ define(function (require,exports,module) {
             getCartJson(function (data) {
                 console.log("aaaaa"+data);
                 let html = template("scartTemp",data);
-                console.log(html);
                 $(".cart_item_list ul").html(html);
+                $(".cil-f .item_num span,#show-num").html( $(".cart_item_list ul li").length);
+                let sum = 0;
+                $(".cart_item_list li").each(function () {
+                    sum+=$(this).find(".item_info .num").html()*$(this).find(".item_info .price").html();
+                });
+                $(".item_total_price span").html(sum);
+                $(".cart_item_list ul li .del-btn").click(function () {
+                    $(this).parents("li").remove();
+                    $(".cil-f .item_num span,#show-num").html( $(".cart_item_list ul li").length);
+                    let sum = 0;
+                    $(".cart_item_list li").each(function () {
+                        sum+=$(this).find(".item_info .num").html()*$(this).find(".item_info .price").html();
+                    });
+                    $(".item_total_price span").html(sum);
+                    delCartItem($(this).attr("data-pid"));
+                });
             });
         }
 
+
+        function delCartItem(pid){
+            let ckArr = Cookies.getJSON("cart");
+            for(let i in ckArr){
+                console.log(ckArr[i]["pid"],pid);
+                if(ckArr[i]["pid"] == pid){
+                    ckArr.splice(i,1);
+                    Cookies.set("cart",ckArr);
+                    return
+                }
+            }
+        }
         //主导航
         function navInit(){
             $.get("json/index.json",function (data) {
