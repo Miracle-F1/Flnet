@@ -73,8 +73,27 @@ define(function (require,exports,module) {
                 case checkboxIsSel():
                     break;
                 default:
-                    Cookies.set("isLogin",username);
-                    location.assign("index.html");
+                    $.ajax({
+                        url:"/user/reg",
+                        type:"POST",
+                        data:{
+                            "username":username + "",
+                            "password":$confpas.val() + ""
+                        },
+                        dataType:"json",
+                        success:function (data) {
+                            switch (+data.msg){
+                                case 0 :
+                                    location.assign("login.html");
+                                    break;
+                                case 1 :
+                                    alert("用户名已存在！！");
+                                    break;
+                                default :
+                                    alert("网络异常！！");
+                            }
+                        }
+                    });
             }
         });
 

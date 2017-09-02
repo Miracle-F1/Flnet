@@ -39,21 +39,22 @@ define(function (require,exports,module) {
                 case codeCheck(code):
                     break;
                 default:
-                    $.get("json/user.json",function (data) {
-                        let flag = false;
-                        for(let i in data){
-                            if(data[i]["username"] == username && data[i]["password"] == password){
-                                flag = true;
+                    $.ajax({
+                        url:"/user/login",
+                        type:"POST",
+                        data:{
+                            "username":username + "",
+                            "password":password + ""
+                        },
+                        dataType:"json",
+                        success:function (data) {
+                            switch (+data.msg){
+                                case 0 :
+                                    location.assign("index.html");
+                                    break;
+                                default :
+                                    $(".tips").html("<i class='iconfont'>&#xe61c;</i> 您输入的用户名或密码不正确，请重新输入！");
                             }
-                        }
-                        if(flag){
-                            if($("#save").is(":checked")){
-                                Cookies.set("autoLogin",username,{expires: 7});
-                            }
-                            Cookies.set("isLogin",username);
-                            location.assign("index.html");
-                        }else{
-                            $(".tips").html("<i class='iconfont'>&#xe61c;</i> 您输入的用户名或密码不正确，请重新输入！");
                         }
                     });
             }

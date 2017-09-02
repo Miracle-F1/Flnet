@@ -12,6 +12,7 @@ define(function (require,exports,module) {
             //$.ajaxSetup({cache: false}); //关闭AJAX相应的缓存
             $(".header-a").load("html-snippets/top-1.html",function () {
                 rightNavInit();
+                userStatusInit();
             });
         }
 
@@ -73,6 +74,30 @@ define(function (require,exports,module) {
         }
 
         //-----------------------------内部函数-----------------------------
+
+        //登录注册显示及相关事件绑定
+        function userStatusInit(){
+
+            $.ajax({
+                url:"/user/judge",
+                type:"get",
+                success:function (data) {
+                    if(!!data["flag"]){
+                        $("#user_status").html(`${data["username"]}  <a href="javascript:void(0);" id="logout">退出登录</a>`);
+                        $("#logout").click(function () {
+                            console.log("asasasa");
+                            $.ajax({
+                                url:"/user/logout",
+                                type:"get",
+                                success:function () {
+                                    location.reload();
+                                }
+                            });
+                        });
+                    }
+                }
+            });
+        }
 
         //页面初始化
         function pageInit(inint_item){
